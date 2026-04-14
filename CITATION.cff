@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you find this repository useful, please cite it as below."
+type: dataset
+title: "Awesome Modality Missing Learning"
+authors:
+  - family-names: Lang
+    given-names: Jian
+    email: jian_lang@std.uestc.edu.cn
+url: "https://github.com/Jian-Lang/awesome-modality-missing-learning"
+date-released: 2026-04-14
+license: MIT
