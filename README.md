@@ -7,7 +7,7 @@
 
 A collection of research studies centered on ***Modality Missing Learning (MML)*** (also referred to as Incomplete Multimodal Learning).
 
-![alt text](imgs/cover_image.jpg)
+![alt text](imgs/cover_image.png)
 
 # 📢 News
 
