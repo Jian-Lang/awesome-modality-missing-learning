@@ -7,10 +7,33 @@
 
 A collection of research studies centered on ***Modality Missing Learning (MML)*** (also referred to as Incomplete Multimodal Learning).
 
-![alt text](imgs/cover_image.png)
+![alt text](imgs/cover_image.jpg)
+
+# 🆕 Latest Accepted Conference Papers
+
+- **[AOEPT: Breaking the Implicit Modality-Reduction Bottleneck in Modality Missing Prompt Tuning](https://arxiv.org/abs/2605.24816)**  
+
+  `ICML 2026` · [Code](https://github.com/Jian-Lang/AOEPT) · [Transformer-oriented](#multimodal-transformer-oriented-methods)
+
+- **[LIMSSR: LLM-Driven Sequence-to-Score Reasoning under Training-Time Incomplete Multimodal Observations](https://icml.cc/virtual/2026/poster/66773)**  
+
+  `ICML 2026` · Code: N/A · [Reconstruction-based](#reconstruction-based-methods)
+
+- **[Calibrated Multimodal Representation Learning with Missing Modalities](https://icml.cc/virtual/2026/poster/66039)**  
+
+  `ICML 2026` · Code: N/A · [Reconstruction-based](#reconstruction-based-methods)
+
+- **[API: Adaptive Prototype Imputation for Incomplete Multimodal Sentiment Analysis](https://icml.cc/virtual/2026/poster/64448)**  
+
+  `ICML 2026` · Code: N/A · [Reconstruction-based](#reconstruction-based-methods)
+
+- **[Characterizing the Predictive Impact of Modalities with Supervised Latent-Variable Modeling](https://arxiv.org/pdf/2602.16979)**  
+
+  `ICML 2026` · Code: N/A · [Reconstruction-based](#reconstruction-based-methods)
 
 # 📢 News
 
++ 2026.05.26 🔥 We add the newly accepted methods in **ICML 2026** (e.g., [AOEPT](https://arxiv.org/abs/2605.24816)). We also add a module to showcase the **Latest Accepted Conference Paper for MML**.
 + 2026.04.14 🔨 We release the awesome MML, which collects the methods mainly published in conferences for MML.
 
 # 📖 Contents
@@ -54,6 +77,10 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Characterizing the Predictive Impact of Modalities with Supervised Latent-Variable Modeling](https://arxiv.org/pdf/2602.16979) | ICML | 2026 | N/A |
+| [LIMSSR: LLM-Driven Sequence-to-Score Reasoning under Training-Time Incomplete Multimodal Observations](https://icml.cc/virtual/2026/poster/66773) | ICML | 2026 | N/A |
+| [Calibrated Multimodal Representation Learning with Missing Modalities](https://icml.cc/virtual/2026/poster/66039) | ICML | 2026 | N/A |
+| [API: Adaptive Prototype Imputation for Incomplete Multimodal Sentiment Analysis](https://icml.cc/virtual/2026/poster/64448) | ICML | 2026 | N/A |
 | [RAG4DMC: Retrieval-Augmented Generation for Data-Level Modality Completion](https://openreview.net/pdf?id=6LA7KDjNsy) | ICLR | 2026 | N/A |
 | [Inference-Time Dynamic Modality Selection for Incomplete Multimodal Classification](https://openreview.net/pdf?id=PWhDUWRVhM) | ICLR | 2026 | [![Stars](https://img.shields.io/github/stars/siyi-wind/DyMo.svg?style=social&label=Star)](https://github.com/siyi-wind/DyMo) |
 | [Sample-specific Modality Diagnosis and Cross-modal Enhancement for Incomplete Multimodal Representations](https://ojs.aaai.org/index.php/AAAI/article/view/39102) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/js257/SMCIR.svg?style=social&label=Star)](https://github.com/js257/SMCIR) |
@@ -174,6 +201,8 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [AOEPT: Breaking the Implicit Modality-Reduction Bottleneck in Modality Missing Prompt Tuning](https://arxiv.org/abs/2605.24816) | ICML | 2026 | [![Stars](https://img.shields.io/github/stars/Jian-Lang/AOEPT.svg?style=social&label=Star)](https://github.com/Jian-Lang/AOEPT) |
+| [SPR: A Structured Prompt Refinement Network for Modality Missing](https://icml.cc/virtual/2026/poster/64804) | ICML | 2026 | N/A |
 | [MoRA: Missing Modality Low-Rank Adaptation for Visual Recognition](https://openreview.net/pdf?id=ZgQnIPG4uV) | ICLR | 2026 | [![Stars](https://img.shields.io/github/stars/Tree-Shu-Zhao/MoRA.svg?style=social&label=Star)](https://github.com/Tree-Shu-Zhao/MoRA) |
 | [Retrieval-Augmented Dynamic Prompt Tuning for Incomplete Multimodal Learning](https://ojs.aaai.org/index.php/AAAI/article/view/33984) | AAAI | 2025 | [![Stars](https://img.shields.io/github/stars/Jian-Lang/RAGPT.svg?style=social&label=Star)](https://github.com/Jian-Lang/RAGPT) |
 | [REDEEMing Modality Information Loss: Retrieval-Guided Conditional Generation for Severely Modality Missing Learning](https://dl.acm.org/doi/10.1145/3711896.3737101) | KDD | 2025 | [![Stars](https://img.shields.io/github/stars/Jian-Lang/REDEEM.svg?style=social&label=Star)](https://github.com/Jian-Lang/REDEEM) |
@@ -267,14 +296,14 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [Gcnet: Graph completion network for incomplete multimodal learning in conversation](https://ieeexplore.ieee.org/abstract/document/10008078/) | TPAMI | 2023 | [![Stars](https://img.shields.io/github/stars/zeroQiaoba/GCNet.svg?style=social&label=Star)](https://github.com/zeroQiaoba/GCNet) |
 
 
-
 <a id="others"></a>
 ## 📦 Others
 
-
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Coverage ≠ Exposure: Auditable Control of Same-Support Tail Failures under Multimodal Missingness](https://icml.cc/virtual/2026/poster/65812) | ICML | 2026 | N/A |
 | [ICYM2I: The illusion of multimodal informativeness under missingness](https://openreview.net/pdf?id=jC7FK8Rf4s) | ICLR | 2026 | [![Stars](https://img.shields.io/github/stars/reAIM-Lab/ICYM2I.svg?style=social&label=Star)](https://github.com/reAIM-Lab/ICYM2I) |
+
 
 <a id="benchmarks"></a>
 # 🏆 Benchmarks
