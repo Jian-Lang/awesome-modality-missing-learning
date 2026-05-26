@@ -34,7 +34,7 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 # 📢 News
 
 + 2026.05.26 🔥 We add the newly accepted methods in **ICML 2026** (e.g., [AOEPT](https://arxiv.org/abs/2605.24816)). We also add a module to showcase the **Latest Accepted Conference Paper for MML**.
-+ 2026.04.14 🔨 We release the awesome MML, which collects the methods mainly published in conferences for MML.
++ 2026.04.14 🔨 We release the awesome-modality-missing-learning, which collects the methods mainly published in conferences for Modality Missing Learning (MML).
 
 # 📖 Contents
 - [📃 Paper List](#📃-paper-list)
