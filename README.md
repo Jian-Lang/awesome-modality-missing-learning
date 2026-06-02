@@ -77,6 +77,7 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Beyond Missing Modalities: Hypergraph Conditioned Diffusion for Uncertainty-Aware Multimodal Emotion Recognition](https://openaccess.thecvf.com/content/CVPR2026/papers/Qiu_Beyond_Missing_Modalities_Hypergraph_Conditioned_Diffusion_for_Uncertainty-Aware_Multimodal_Emotion_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
 | [Characterizing the Predictive Impact of Modalities with Supervised Latent-Variable Modeling](https://arxiv.org/pdf/2602.16979) | ICML | 2026 | N/A |
 | [LIMSSR: LLM-Driven Sequence-to-Score Reasoning under Training-Time Incomplete Multimodal Observations](https://icml.cc/virtual/2026/poster/66773) | ICML | 2026 | N/A |
 | [Calibrated Multimodal Representation Learning with Missing Modalities](https://icml.cc/virtual/2026/poster/66039) | ICML | 2026 | N/A |
@@ -118,6 +119,7 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Uni-Encoder Meets Multi-Encoders: Representation Before Fusion for Brain Tumor Segmentation with Missing Modalities](https://openaccess.thecvf.com/content/CVPR2026/papers/Song_Uni-Encoder_Meets_Multi-Encoders_Representation_Before_Fusion_for_Brain_Tumor_Segmentation_CVPR_2026_paper.pdf) | CVPR | 2026 | [![Stars](https://img.shields.io/github/stars/Hooorace-S/UniME.svg?style=social&label=Star)](https://github.com/Hooorace-S/UniME) |
 | [SiMO: Single-Modality-Operable Multimodal Collaborative Perception](https://openreview.net/pdf?id=h0iRgjTmVs) | ICLR | 2026 | [![Stars](https://img.shields.io/github/stars/dempsey-wen/SiMO.svg?style=social&label=Star)](https://github.com/dempsey-wen/SiMO) |
 | [TMDC: A Two-Stage Modality Denoising and Complementation Framework for Multimodal Sentiment Analysis with Missing and Noisy Modalities](https://ojs.aaai.org/index.php/AAAI/article/view/37212) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/YetZzzzzz/TMDC.svg?style=social&label=Star)](https://github.com/YetZzzzzz/TMDC) |
 | [Proxy-Driven Robust Multimodal Sentiment Analysis with Incomplete Data](https://aclanthology.org/2025.acl-long.1075.pdf) | ACL | 2025 | N/A |
@@ -163,6 +165,7 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [CP-IMoE: Collaborative Prompt-Guided Interactive Mixture-of-Experts for Incomplete Multimodal Learning](https://openaccess.thecvf.com/content/CVPR2026F/papers/Li_CP-IMoE_Collaborative_Prompt-Guided_Interactive_Mixture-of-Experts_for_Incomplete_Multimodal_Learning_CVPRF_2026_paper.pdf) | CVPR Finding | 2026 | [![Stars](https://img.shields.io/github/stars/lijing-coder/CP-IMoE.svg?style=social&label=Star)](https://github.com/lijing-coder/CP-IMoE) |
 | [Taming Cascaded Mixture-of-Experts for Modality-missing Multi-modal Salient Object Detection](https://ojs.aaai.org/index.php/AAAI/article/view/37959) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/Angknpng/CMoE.svg?style=social&label=Star)](https://github.com/Angknpng/CMoE) |
 | [MCMoE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment](https://ojs.aaai.org/index.php/AAAI/article/view/38104) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/XuHuangbiao/MCMoE.svg?style=social&label=Star)](https://github.com/XuHuangbiao/MCMoE) |
 | [SimMLM: A Simple Framework for Multi-modal Learning with Missing Modality](https://openaccess.thecvf.com/content/ICCV2025/papers/Li_SimMLM_A_Simple_Framework_for_Multi-modal_Learning_with_Missing_Modality_ICCV_2025_paper.pdf) | ICCV | 2025 | [![Stars](https://img.shields.io/github/stars/LezJ/SimMLM.svg?style=social&label=Star)](https://github.com/LezJ/SimMLM) |
@@ -178,6 +181,8 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Anchor-Guided Gradient Alignment for Incomplete Multimodal Learning](https://openaccess.thecvf.com/content/CVPR2026/papers/Guan_Anchor-Guided_Gradient_Alignment_for_Incomplete_Multimodal_Learning_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
+| [Enhance-then-Balance Modality Collaboration for Robust Multimodal Sentiment Analysis](https://openaccess.thecvf.com/content/CVPR2026/papers/He_Enhance-then-Balance_Modality_Collaboration_for_Robust_Multimodal_Sentiment_Analysis_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
 | [BALM: A Model-Agnostic Framework for Balanced Multimodal Learning under Imbalanced Missing Rates](https://arxiv.org/pdf/2603.19718) | CVPR | 2026 | [![Stars](https://img.shields.io/github/stars/np4s/BALM_CVPR2026.svg?style=social&label=Star)](https://github.com/np4s/BALM_CVPR2026) |
 | [Plug, Play, and Fortify: A Low-Cost Module for Robust Multimodal Image Understanding Models](https://openreview.net/pdf?id=7KluEfmiXG) | ICLR | 2026 | [![Stars](https://img.shields.io/github/stars/a6103121/MWAM.svg?style=social&label=Star)](https://github.com/a6103121/MWAM) |
 | [Cross-modal Prompting for Balanced Incomplete Multi-modal Emotion Recognition](https://ojs.aaai.org/index.php/AAAI/article/view/38800) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/WenjueHE/2026-AAAI-ComP.svg?style=social&label=Star)](https://github.com/WenjueHE/2026-AAAI-ComP) |
@@ -231,6 +236,9 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Uni-Encoder Meets Multi-Encoders: Representation Before Fusion for Brain Tumor Segmentation with Missing Modalities](https://openaccess.thecvf.com/content/CVPR2026/papers/Song_Uni-Encoder_Meets_Multi-Encoders_Representation_Before_Fusion_for_Brain_Tumor_Segmentation_CVPR_2026_paper.pdf) | CVPR | 2026 | [![Stars](https://img.shields.io/github/stars/Hooorace-S/UniME.svg?style=social&label=Star)](https://github.com/Hooorace-S/UniME) |
+| [Virtual Nodes Guided Dynamic Graph Neural Network for Brain Tumor Segmentation with Missing Modalities](https://openaccess.thecvf.com/content/CVPR2026/papers/Tao_Virtual_Nodes_Guided_Dynamic_Graph_Neural_Network_for_Brain_Tumor_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
+| [CP-IMoE: Collaborative Prompt-Guided Interactive Mixture-of-Experts for Incomplete Multimodal Learning](https://openaccess.thecvf.com/content/CVPR2026F/papers/Li_CP-IMoE_Collaborative_Prompt-Guided_Interactive_Mixture-of-Experts_for_Incomplete_Multimodal_Learning_CVPRF_2026_paper.pdf) | CVPR Finding | 2026 | [![Stars](https://img.shields.io/github/stars/lijing-coder/CP-IMoE.svg?style=social&label=Star)](https://github.com/lijing-coder/CP-IMoE) |
 | [Tackling Dual-stage Missing Modalities in Brain Tumor Segmentation via Robust Modality Reconstruction and Prompt-guided Modality Adaptation](https://ojs.aaai.org/index.php/AAAI/article/view/38334) | AAAI | 2026 | N/A |
 | [MUST: Modality-Specific Representation-Aware Transformer for Diffusion-Enhanced Survival Prediction with Missing Modality](https://arxiv.org/pdf/2603.26071v1) | CVPR | 2026 | [![Stars](https://img.shields.io/github/stars/KyleKWKim/MUST.svg?style=social&label=Star)](https://github.com/KyleKWKim/MUST) |
 | [Semantic-guided Masked Mutual Learning for Multi-modal Brain Tumor Segmentation with Arbitrary Missing Modalities](https://ojs.aaai.org/index.php/AAAI/article/view/32545) | AAAI | 2025 | N/A |
@@ -250,6 +258,9 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Beyond Missing Modalities: Hypergraph Conditioned Diffusion for Uncertainty-Aware Multimodal Emotion Recognition](https://openaccess.thecvf.com/content/CVPR2026/papers/Qiu_Beyond_Missing_Modalities_Hypergraph_Conditioned_Diffusion_for_Uncertainty-Aware_Multimodal_Emotion_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
+| [CICA: Coupling Confidence-Aware Pretraining with Confidence-Informed Attention for Robust Multimodal Sentiment Analysis](https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_CICA_Coupling_Confidence-Aware_Pretraining_with_Confidence-Informed_Attention_for_Robust_Multimodal_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
+| [Enhance-then-Balance Modality Collaboration for Robust Multimodal Sentiment Analysis](https://openaccess.thecvf.com/content/CVPR2026/papers/He_Enhance-then-Balance_Modality_Collaboration_for_Robust_Multimodal_Sentiment_Analysis_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
 | [Cross-modal Prompting for Balanced Incomplete Multi-modal Emotion Recognition](https://ojs.aaai.org/index.php/AAAI/article/view/38800) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/WenjueHE/2026-AAAI-ComP.svg?style=social&label=Star)](https://github.com/WenjueHE/2026-AAAI-ComP) |
 | [Recovering Coherent Affective Patterns: Addressing Modality Missing in Multimodal Sentiment Analysis](https://ojs.aaai.org/index.php/AAAI/article/view/39349) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/Taylor-HHT/RECAP-MSA.svg?style=social&label=Star)](https://github.com/Taylor-HHT/RECAP-MSA) |
 | [TMDC: A Two-Stage Modality Denoising and Complementation Framework for Multimodal Sentiment Analysis with Missing and Noisy Modalities](https://arxiv.org/pdf/2511.10325) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/YetZzzzzz/TMDC.svg?style=social&label=Star)](https://github.com/YetZzzzzz/TMDC) |
