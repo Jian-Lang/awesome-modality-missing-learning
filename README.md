@@ -11,26 +11,6 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 
 # 🆕 Latest Accepted Conference Papers
 
-- **[CP-IMoE: Collaborative Prompt-Guided Interactive Mixture-of-Experts for Incomplete Multimodal Learning](https://openaccess.thecvf.com/content/CVPR2026F/papers/Li_CP-IMoE_Collaborative_Prompt-Guided_Interactive_Mixture-of-Experts_for_Incomplete_Multimodal_Learning_CVPRF_2026_paper.pdf)**  
-
-  `CVPR Finding 2026` · [Code](https://github.com/lijing-coder/CP-IMoE) · [Mixture-of-Experts](#mixture-of-experts-methods)
-
-- **[Uni-Encoder Meets Multi-Encoders: Representation Before Fusion for Brain Tumor Segmentation with Missing Modalities](https://openaccess.thecvf.com/content/CVPR2026/papers/Song_Uni-Encoder_Meets_Multi-Encoders_Representation_Before_Fusion_for_Brain_Tumor_Segmentation_CVPR_2026_paper.pdf)**  
-
-  `CVPR 2026` · [Code](https://github.com/Hooorace-S/UniME) · [Shared Representation](#multimodal-shared-representation-learning-methods)
-
-- **[DPL: Decoupled Prototype Learning for Enhancing Robustness of Vision-Language Transformers to Missing Modalities](https://openaccess.thecvf.com/content/CVPR2026/papers/Lu_DPL_Decoupled_Prototype_Learning_for_Enhancing_Robustness_of_Vision-Language_Transformers_CVPR_2026_paper.pdf)**  
-
-  `CVPR 2026` · Code: N/A · [Transformer-oriented](#multimodal-transformer-oriented-methods)
-
-- **[Anchor-Guided Gradient Alignment for Incomplete Multimodal Learning](https://openaccess.thecvf.com/content/CVPR2026/papers/Guan_Anchor-Guided_Gradient_Alignment_for_Incomplete_Multimodal_Learning_CVPR_2026_paper.pdf)**  
-
-  `CVPR 2026` · Code: N/A · [Modality Enhancement](#modality-enhancement-learning-methods)
-
-- **[Beyond Missing Modalities: Hypergraph Conditioned Diffusion for Uncertainty-Aware Multimodal Emotion Recognition](https://openaccess.thecvf.com/content/CVPR2026/papers/Qiu_Beyond_Missing_Modalities_Hypergraph_Conditioned_Diffusion_for_Uncertainty-Aware_Multimodal_Emotion_CVPR_2026_paper.pdf)**  
-
-  `CVPR 2026` · Code: N/A · [Reconstruction-based](#reconstruction-based-methods)
-
 - **[AOEPT: Breaking the Implicit Modality-Reduction Bottleneck in Modality Missing Prompt Tuning](https://arxiv.org/abs/2605.24816)**  
 
   `ICML 2026` · [Code](https://github.com/Jian-Lang/AOEPT) · [Transformer-oriented](#multimodal-transformer-oriented-methods)
@@ -226,7 +206,6 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
-| [DPL: Decoupled Prototype Learning for Enhancing Robustness of Vision-Language Transformers to Missing Modalities](https://openaccess.thecvf.com/content/CVPR2026/papers/Lu_DPL_Decoupled_Prototype_Learning_for_Enhancing_Robustness_of_Vision-Language_Transformers_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
 | [AOEPT: Breaking the Implicit Modality-Reduction Bottleneck in Modality Missing Prompt Tuning](https://arxiv.org/abs/2605.24816) | ICML | 2026 | [![Stars](https://img.shields.io/github/stars/Jian-Lang/AOEPT.svg?style=social&label=Star)](https://github.com/Jian-Lang/AOEPT) |
 | [SPR: A Structured Prompt Refinement Network for Modality Missing](https://icml.cc/virtual/2026/poster/64804) | ICML | 2026 | N/A |
 | [MoRA: Missing Modality Low-Rank Adaptation for Visual Recognition](https://openreview.net/pdf?id=ZgQnIPG4uV) | ICLR | 2026 | [![Stars](https://img.shields.io/github/stars/Tree-Shu-Zhao/MoRA.svg?style=social&label=Star)](https://github.com/Tree-Shu-Zhao/MoRA) |
