@@ -2,6 +2,11 @@
 
 # Awesome Modality Missing Learning 
 
+<p align="center">
+  <a href="https://github.com/Jian-Lang/awesome-modality-missing-learning">
+    <img src="https://awesome.re/badge.svg" alt="Awesome MML">
+  </a>
+</p>
 
 </center>
 
