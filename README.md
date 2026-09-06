@@ -25,7 +25,7 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 
 # 📖 Contents
 - [📃 Paper List](#📃-paper-list)
-  - [📚 Survey](#survey)
+  - [📚 Survey & Resources](#survey)
   - [🧩 Reconstruction-based Methods](#reconstruction-based-methods)
   - [🔗 Multimodal Shared Representation Learning Methods](#multimodal-shared-representation-learning-methods)
   - [🎓 Teacher-Student Distillation and Alignment Methods](#teacher-student-distillation-and-alignment-methods)
@@ -50,11 +50,12 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 # 📃 Paper List
 
 <a id="survey"></a>
-## 📚 Survey
+## 📚 Survey & Resources
 
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Multi-modal learning with incomplete data](https://www.nature.com/articles/s41467-026-77212-w) | Nature Communications | 2026 | [Code](https://github.com/ocbe-uio/imml) · [Docs](https://imml.readthedocs.io/) |
 | [Deep Multimodal Learning with Missing Modality: A Survey](https://openreview.net/pdf?id=tc7RFcx4hT) | TMLR | 2026 | N/A |
 | [Multimodal Learning Under Imperfect Data Conditions: A Survey](https://www.techrxiv.org/doi/full/10.36227/techrxiv.176410566.65375877) | arxiv | 2026 | N/A |
 | [Multimodal fusion on low-quality data: A comprehensive survey](https://arxiv.org/pdf/2404.18947) | arxiv | 2024 | N/A |
