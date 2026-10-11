@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<!--
+  Source of imgs/cover_image.png, the cover figure of Awesome Modality Missing Learning.
+  Everything is inline SVG.
+
+  Each modality is one <g class="mod COLOUR"> group holding its label, icon, arrows, encoder
+  and fusion token. Adding the class "missing" to a group greys that modality out, dashes
+  its path and shows the red cross, so the right-hand panel is the left one with two groups
+  marked missing. Colours are the CSS variables at the top of the style block.
+
+  Re-export the PNG after editing (run from the repository root):
+
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new \
+        --hide-scrollbars --force-device-scale-factor=2 --window-size=1960,796 \
+        --default-background-color=00000000 \
+        --screenshot=imgs/cover_image.png imgs/cover_image.html
+
+  The window size matches the SVG viewBox (1960 x 796), so the PNG is 3920 x 1592.
+  The transparent default background leaves only the rounded white card, which keeps the
+  figure from showing as a hard white rectangle on GitHub's dark theme.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Complete vs. missing modalities in multimodal learning</title>
+<style>
+  html, body { margin: 0; background: transparent; }
+  svg { display: block; width: 100%; height: auto; }
+
+  svg {
+    --ink: #0f1b33;      /* headings and labels */
+    --muted: #5b6b85;    /* captions */
+    --navy: #2b3a5c;     /* fusion operator, output arrow, result */
+    font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    fill: var(--ink);
+  }
+  /* per modality: c = line, d = dark (text, icon outline), k = mid tone, f = fill, t = tile tint */
+  .blue   { --c: #2f6fe4; --d: #1d4fb8; --k: #7daeff; --f: #e1ecff; --t: #f0f5ff; }
+  .green  { --c: #12a074; --d: #0b7556; --k: #62d1a8; --f: #d7f3e7; --t: #edfaf4; }
+  .orange { --c: #ee7c1a; --d: #b4540b; --k: #ffb26b; --f: #ffe7cf; --t: #fff5ea; }
+  .purple { --c: #8257e6; --d: #5a34bd; --k: #b9a0ff; --f: #ece3ff; --t: #f6f1ff; }
+  .missing { --c: #aab4c3; --d: #8d98aa; --k: #d3d9e2; --f: #f0f2f6; --t: #f8f9fb; }
+
+  .bg { fill: #fff; }
+  .bar { fill: #eef2f8; }
+  .bar-t { font-size: 34px; font-weight: 600; }
+  .ok circle { fill: #16a673; }
+  .no circle, .badge circle { fill: #e5484d; }
+  .ok path, .no path, .badge path { fill: none; stroke: #fff; stroke-width: 3.6; stroke-linecap: round; stroke-linejoin: round; }
+  .rule { stroke: #e1e6ef; stroke-width: 2; }
+
+  .m { font-size: 36px; font-weight: 700; }
+  .sub { font-size: 24px; }
+  .tile { fill: var(--t); stroke: var(--k); stroke-width: 2; }
+  .cap { font-size: 24px; font-weight: 500; text-anchor: middle; fill: var(--muted); }
+  .wire { fill: none; stroke: var(--c); stroke-width: 3.2; }
+  .head { fill: var(--c); stroke: var(--c); stroke-width: 1.4; stroke-linejoin: round; }
+  .enc { fill: var(--f); stroke: var(--c); stroke-width: 2.6; }
+  .enc-t { font-size: 25px; font-weight: 600; text-anchor: middle; fill: var(--d); }
+  .link { fill: none; stroke: var(--c); stroke-width: 2; }
+  .tok { fill: var(--k); stroke: var(--c); stroke-width: 2.6; }
+  .badge { display: none; }
+  .badge circle { stroke: #fff; stroke-width: 7; paint-order: stroke; }
+
+  .missing .badge { display: inline; }
+  .missing .m { fill: var(--d); }
+  .missing .cap { fill: var(--d); }
+  .missing .tile { stroke: var(--c); stroke-dasharray: 8 6; }
+  .missing .wire { stroke-dasharray: 9 7; }
+  .missing .enc { stroke-dasharray: 8 6; }
+  .missing .link { stroke-dasharray: 4 5; }
+  .missing .tok { fill: #fff; stroke-dasharray: 5 4; }
+
+  .card { fill: #f7f9fc; stroke: #c6d0e1; stroke-width: 2; filter: url(#soft); }
+  .card-t { font-size: 28px; font-weight: 700; fill: #26344f; }
+  .fusion { fill: #e8edf9; stroke: #6f83b0; stroke-width: 2.6; }
+  .oplus { fill: #fff; stroke: var(--navy); stroke-width: 2.6; }
+  .oplus-x { fill: none; stroke: var(--navy); stroke-width: 3; stroke-linecap: round; }
+  .fus-t { font-size: 25px; font-weight: 600; text-anchor: middle; }
+  .out { --c: var(--navy); }
+  .result { fill: var(--navy); }
+  .result-t { font-size: 27px; font-weight: 600; text-anchor: middle; fill: #fff; }
+  .note { font-size: 22px; font-weight: 500; text-anchor: middle; fill: var(--muted); }
+
+  /* icons take their colours from the modality group that uses them */
+  .ic * { stroke: var(--d); stroke-width: 3.8; stroke-linejoin: round; stroke-linecap: round; }
+  .ic .fc { fill: var(--c); }
+  .ic .fk { fill: var(--k); }
+  .ic .ff { fill: var(--f); }
+  .ic .fw { fill: #fff; }
+  .ic .fn { fill: none; }
+  .ic .th { stroke-width: 3; }
+  .ic path.th { fill: none; }
+  .ic .cab-o { fill: none; stroke-width: 11; }
+  .ic .cab-i { fill: none; stroke: var(--k); stroke-width: 4.5; }
+  .ic .col-o { fill: none; stroke-width: 16; stroke-linecap: butt; }
+  .ic .col-i { fill: none; stroke: var(--f); stroke-width: 9; stroke-linecap: butt; }
+  .ic .pin-o { fill: none; stroke-width: 7; }
+  .ic .pin-i { fill: none; stroke: #fff; stroke-width: 2.4; stroke-linecap: butt; }
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1960 796" role="img" aria-labelledby="fig-title fig-desc">
+  <title id="fig-title">Complete vs. missing modalities in multimodal learning</title>
+  <desc id="fig-desc">Left: in the ideal setting, images, text, audio and sensor inputs all reach their modality encoders, are fused, and produce a result. Right: in the real world, the text and sensor modalities are missing.</desc>
+
+  <defs>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1b2a4a" flood-opacity=".07"/>
+    </filter>
+    <g id="i-camera" class="ic">
+      <path class="ff" d="M-49,-5 V-17 a7,7 0 0 1 7,-7 H42 a7,7 0 0 1 7,7 V-5 Z"/>
+      <rect class="ff" x="-42" y="-31" width="15" height="7" rx="2"/>
+      <path class="fk" d="M-49,-6 H49 V31 a7,7 0 0 1 -7,7 H-42 a7,7 0 0 1 -7,-7 Z"/>
+      <path class="ff" d="M-24,-21 L-17,-38 H17 L24,-21"/>
+      <rect class="fw th" x="29" y="-19" width="12" height="7" rx="2.5"/>
+      <circle class="fw" cx="0" cy="9" r="24"/>
+      <circle class="fc" cx="0" cy="9" r="14"/>
+    </g>
+    <g id="i-book" class="ic">
+      <path class="fk" d="M-49,-25 H49 V33 H7 Q0,33 0,38 Q0,33 -7,33 H-49 Z"/>
+      <path class="fw" d="M0,-25 C-10,-35 -31,-37 -43,-33 V25 C-31,21 -10,22 0,31 Z"/>
+      <path class="fw" d="M0,-25 C10,-35 31,-37 43,-33 V25 C31,21 10,22 0,31 Z"/>
+      <path class="th" d="M-35,-20 Q-21,-23 -9,-15 M-35,-8 Q-21,-11 -9,-3 M-35,4 Q-21,1 -9,9"/>
+      <path class="th" d="M35,-20 Q21,-23 9,-15 M35,-8 Q21,-11 9,-3 M35,4 Q21,1 9,9"/>
+    </g>
+    <g id="i-mic" class="ic">
+      <rect class="fk" x="-16" y="-44" width="32" height="56" rx="16"/>
+      <path class="th" d="M-16,-26 h10 M-16,-16 h10 M-16,-6 h10 M16,-26 h-10 M16,-16 h-10 M16,-6 h-10"/>
+      <path class="fn" d="M-27,-8 V-1 A27,27 0 0 0 27,-1 V-8"/>
+      <path class="fn" d="M0,26 V43 M-17,43 H17"/>
+    </g>
+    <g id="i-sensor" class="ic">
+      <path class="cab-o" d="M14.2,-9 l13,-7.5 q8,-5 11,-17"/><path class="cab-i" d="M14.2,-9 l13,-7.5 q8,-5 11,-17"/>
+      <path class="col-o" d="M19.4,-12 l7.8,-4.5"/><path class="col-i" d="M19.4,-12 l7.8,-4.5"/>
+      <polygon class="fc" points="-36,-9 -4.8,9 -4.8,31 -36,13"/>
+      <polygon class="fk" points="-4.8,9 35,-14 35,8 -4.8,31"/>
+      <polygon class="ff" points="-36,-9 3.8,-32 35,-14 -4.8,9"/>
+      <path class="th" d="M-39.1,9.6 q-9,5.2 -9,17 V43 M-31.8,13.9 q-9,5.2 -9,17 V43 M-24.6,18 q-9,5.2 -9,17 V43 M-17.3,22.2 q-9,5.2 -9,17 V43"/>
+      <path class="pin-o" d="M-31.3,5.1 L-39.1,9.6 M-24,9.4 L-31.8,13.9 M-16.8,13.5 L-24.6,18 M-9.5,17.7 L-17.3,22.2"/><path class="pin-i" d="M-31.3,5.1 L-39.1,9.6 M-24,9.4 L-31.8,13.9 M-16.8,13.5 L-24.6,18 M-9.5,17.7 L-17.3,22.2"/>
+    </g>
+  </defs>
+
+  <rect class="bg" width="1960" height="796" rx="28"/>
+
+  <!-- left: ideal -->
+  <g>
+    <rect class="bar" x="16" y="16" width="948" height="62" rx="16"/>
+    <g class="ok" transform="translate(269.6,47)"><circle r="16"/><path d="M-7,0.5 l4.6,4.8 l9,-10.2"/></g>
+    <text class="bar-t" x="299.6" y="59">Ideal: Complete Modalities</text>
+
+    <rect class="card" x="336" y="108" width="424" height="664" rx="22"/>
+    <text class="card-t" x="368" y="157">Multimodal Model</text>
+    <path class="fusion" d="M622,349 Q622,334 636,339.3 L708,366.7 Q722,372 722,387 L722,537 Q722,552 708,557.3 L636,584.7 Q622,590 622,575 Z"/>
+
+    <g class="mod blue">
+      <text class="m" x="34" y="253">M<tspan class="sub" dy="9">1</tspan></text>
+      <rect class="tile" x="110" y="192" width="96" height="96" rx="22"/>
+      <use href="#i-camera" transform="translate(158,240) scale(.72)"/>
+      <text class="cap" x="158" y="318">Images</text>
+      <path class="wire" d="M220,240 H349.7"/><path class="head" d="M362.7,240 l-15,-6.5 v13 Z"/>
+      <g class="badge" transform="translate(276,240)"><circle r="16"/><path d="M-5.6,-5.6 l11.2,11.2 M5.6,-5.6 l-11.2,11.2"/></g>
+      <path class="wire" d="M524,240 H576 Q588,240 588,252 V366 Q588,378 600,378 H603.7"/><path class="head" d="M616.7,378 l-15,-6.5 v13 Z"/>
+      <path class="enc" d="M368,195 Q368,186 376.9,187 L515.1,203 Q524,204 524,213 L524,267 Q524,276 515.1,277 L376.9,293 Q368,294 368,285 Z"/>
+      <text class="enc-t" x="444" y="235">Modality</text><text class="enc-t" x="444" y="264">Encoder</text>
+      <path class="link" d="M649,378 L695,462"/>
+      <circle class="tok" cx="649" cy="378" r="13"/>
+    </g>
+    <g class="mod green">
+      <text class="m" x="34" y="401">M<tspan class="sub" dy="9">2</tspan></text>
+      <rect class="tile" x="110" y="340" width="96" height="96" rx="22"/>
+      <use href="#i-book" transform="translate(158,388) scale(.72)"/>
+      <text class="cap" x="158" y="466">Text</text>
+      <path class="wire" d="M220,388 H349.7"/><path class="head" d="M362.7,388 l-15,-6.5 v13 Z"/>
+      <g class="badge" transform="translate(276,388)"><circle r="16"/><path d="M-5.6,-5.6 l11.2,11.2 M5.6,-5.6 l-11.2,11.2"/></g>
+      <path class="wire" d="M524,388 H550 Q562,388 562,400 V422 Q562,434 574,434 H603.7"/><path class="head" d="M616.7,434 l-15,-6.5 v13 Z"/>
+      <path class="enc" d="M368,343 Q368,334 376.9,335 L515.1,351 Q524,352 524,361 L524,415 Q524,424 515.1,425 L376.9,441 Q368,442 368,433 Z"/>
+      <text class="enc-t" x="444" y="383">Modality</text><text class="enc-t" x="444" y="412">Encoder</text>
+      <path class="link" d="M649,434 L695,462"/>
+      <circle class="tok" cx="649" cy="434" r="13"/>
+    </g>
+    <g class="mod orange">
+      <text class="m" x="34" y="549">M<tspan class="sub" dy="9">3</tspan></text>
+      <rect class="tile" x="110" y="488" width="96" height="96" rx="22"/>
+      <use href="#i-mic" transform="translate(158,536) scale(.72)"/>
+      <text class="cap" x="158" y="614">Audio</text>
+      <path class="wire" d="M220,536 H349.7"/><path class="head" d="M362.7,536 l-15,-6.5 v13 Z"/>
+      <g class="badge" transform="translate(276,536)"><circle r="16"/><path d="M-5.6,-5.6 l11.2,11.2 M5.6,-5.6 l-11.2,11.2"/></g>
+      <path class="wire" d="M524,536 H550 Q562,536 562,524 V502 Q562,490 574,490 H603.7"/><path class="head" d="M616.7,490 l-15,-6.5 v13 Z"/>
+      <path class="enc" d="M368,491 Q368,482 376.9,483 L515.1,499 Q524,500 524,509 L524,563 Q524,572 515.1,573 L376.9,589 Q368,590 368,581 Z"/>
+      <text class="enc-t" x="444" y="531">Modality</text><text class="enc-t" x="444" y="560">Encoder</text>
+      <path class="link" d="M649,490 L695,462"/>
+      <circle class="tok" cx="649" cy="490" r="13"/>
+    </g>
+    <g class="mod purple">
+      <text class="m" x="34" y="697">M<tspan class="sub" dy="9">n</tspan></text>
+      <rect class="tile" x="110" y="636" width="96" height="96" rx="22"/>
+      <use href="#i-sensor" transform="translate(158,684) scale(.72)"/>
+      <text class="cap" x="158" y="762">Sensor</text>
+      <path class="wire" d="M220,684 H349.7"/><path class="head" d="M362.7,684 l-15,-6.5 v13 Z"/>
+      <g class="badge" transform="translate(276,684)"><circle r="16"/><path d="M-5.6,-5.6 l11.2,11.2 M5.6,-5.6 l-11.2,11.2"/></g>
+      <path class="wire" d="M524,684 H576 Q588,684 588,672 V558 Q588,546 600,546 H603.7"/><path class="head" d="M616.7,546 l-15,-6.5 v13 Z"/>
+      <path class="enc" d="M368,639 Q368,630 376.9,631 L515.1,647 Q524,648 524,657 L524,711 Q524,720 515.1,721 L376.9,737 Q368,738 368,729 Z"/>
+      <text class="enc-t" x="444" y="679">Modality</text><text class="enc-t" x="444" y="708">Encoder</text>
+      <path class="link" d="M649,546 L695,462"/>
+      <circle class="tok" cx="649" cy="546" r="13"/>
+    </g>
+
+    <circle class="oplus" cx="695" cy="462" r="14"/><path class="oplus-x" d="M688,462 h14 M695,455 v14"/>
+    <text class="fus-t" x="672" y="624">Fusion</text>
+    <g class="out"><path class="wire" d="M723.3,462 H789"/><path class="head" d="M802,462 l-15,-6.5 v13 Z"/></g>
+    <rect class="result" x="806" y="433" width="128" height="58" rx="17"/>
+    <text class="result-t" x="870" y="472">Result</text>
+    <text class="note" x="870" y="525">e.g., classification</text>
+    <text class="note" x="870" y="553">label</text>
+  </g>
+
+  <line class="rule" x1="980" y1="16" x2="980" y2="780"/>
+
+  <!-- right: real world, M2 and Mn never arrive -->
+  <g transform="translate(980,0)">
+    <rect class="bar" x="16" y="16" width="948" height="62" rx="16"/>
+    <g class="no" transform="translate(238.4,47)"><circle r="16"/><path d="M-5.6,-5.6 l11.2,11.2 M5.6,-5.6 l-11.2,11.2"/></g>
+    <text class="bar-t" x="268.4" y="59">Real-World: Missing Modalities</text>
+
+    <rect class="card" x="336" y="108" width="424" height="664" rx="22"/>
+    <text class="card-t" x="368" y="157">Multimodal Model</text>
+    <path class="fusion" d="M622,349 Q622,334 636,339.3 L708,366.7 Q722,372 722,387 L722,537 Q722,552 708,557.3 L636,584.7 Q622,590 622,575 Z"/>
+
+    <g class="mod blue">
+      <text class="m" x="34" y="253">M<tspan class="sub" dy="9">1</tspan></text>
+      <rect class="tile" x="110" y="192" width="96" height="96" rx="22"/>
+      <use href="#i-camera" transform="translate(158,240) scale(.72)"/>
+      <text class="cap" x="158" y="318">Images</text>
+      <path class="wire" d="M220,240 H349.7"/><path class="head" d="M362.7,240 l-15,-6.5 v13 Z"/>
+      <g class="badge" transform="translate(276,240)"><circle r="16"/><path d="M-5.6,-5.6 l11.2,11.2 M5.6,-5.6 l-11.2,11.2"/></g>
+      <path class="wire" d="M524,240 H576 Q588,240 588,252 V366 Q588,378 600,378 H603.7"/><path class="head" d="M616.7,378 l-15,-6.5 v13 Z"/>
+      <path class="enc" d="M368,195 Q368,186 376.9,187 L515.1,203 Q524,204 524,213 L524,267 Q524,276 515.1,277 L376.9,293 Q368,294 368,285 Z"/>
+      <text class="enc-t" x="444" y="235">Modality</text><text class="enc-t" x="444" y="264">Encoder</text>
+      <path class="link" d="M649,378 L695,462"/>
+      <circle class="tok" cx="649" cy="378" r="13"/>
+    </g>
+    <g class="mod green missing">
+      <text class="m" x="34" y="401">M<tspan class="sub" dy="9">2</tspan></text>
+      <rect class="tile" x="110" y="340" width="96" height="96" rx="22"/>
+      <use href="#i-book" transform="translate(158,388) scale(.72)"/>
+      <text class="cap" x="158" y="466">Text</text>
+      <path class="wire" d="M220,388 H349.7"/><path class="head" d="M362.7,388 l-15,-6.5 v13 Z"/>
+      <g class="badge" transform="translate(276,388)"><circle r="16"/><path d="M-5.6,-5.6 l11.2,11.2 M5.6,-5.6 l-11.2,11.2"/></g>
+      <path class="wire" d="M524,388 H550 Q562,388 562,400 V422 Q562,434 574,434 H603.7"/><path class="head" d="M616.7,434 l-15,-6.5 v13 Z"/>
+      <path class="enc" d="M368,343 Q368,334 376.9,335 L515.1,351 Q524,352 524,361 L524,415 Q524,424 515.1,425 L376.9,441 Q368,442 368,433 Z"/>
+      <text class="enc-t" x="444" y="383">Modality</text><text class="enc-t" x="444" y="412">Encoder</text>
+      <path class="link" d="M649,434 L695,462"/>
+      <circle class="tok" cx="649" cy="434" r="13"/>
+    </g>
+    <g class="mod orange">
+      <text class="m" x="34" y="549">M<tspan class="sub" dy="9">3</tspan></text>
+      <rect class="tile" x="110" y="488" width="96" height="96" rx="22"/>
+      <use href="#i-mic" transform="translate(158,536) scale(.72)"/>
+      <text class="cap" x="158" y="614">Audio</text>
+      <path class="wire" d="M220,536 H349.7"/><path class="head" d="M362.7,536 l-15,-6.5 v13 Z"/>
+      <g class="badge" transform="translate(276,536)"><circle r="16"/><path d="M-5.6,-5.6 l11.2,11.2 M5.6,-5.6 l-11.2,11.2"/></g>
+      <path class="wire" d="M524,536 H550 Q562,536 562,524 V502 Q562,490 574,490 H603.7"/><path class="head" d="M616.7,490 l-15,-6.5 v13 Z"/>
+      <path class="enc" d="M368,491 Q368,482 376.9,483 L515.1,499 Q524,500 524,509 L524,563 Q524,572 515.1,573 L376.9,589 Q368,590 368,581 Z"/>
+      <text class="enc-t" x="444" y="531">Modality</text><text class="enc-t" x="444" y="560">Encoder</text>
+      <path class="link" d="M649,490 L695,462"/>
+      <circle class="tok" cx="649" cy="490" r="13"/>
+    </g>
+    <g class="mod purple missing">
+      <text class="m" x="34" y="697">M<tspan class="sub" dy="9">n</tspan></text>
+      <rect class="tile" x="110" y="636" width="96" height="96" rx="22"/>
+      <use href="#i-sensor" transform="translate(158,684) scale(.72)"/>
+      <text class="cap" x="158" y="762">Sensor</text>
+      <path class="wire" d="M220,684 H349.7"/><path class="head" d="M362.7,684 l-15,-6.5 v13 Z"/>
+      <g class="badge" transform="translate(276,684)"><circle r="16"/><path d="M-5.6,-5.6 l11.2,11.2 M5.6,-5.6 l-11.2,11.2"/></g>
+      <path class="wire" d="M524,684 H576 Q588,684 588,672 V558 Q588,546 600,546 H603.7"/><path class="head" d="M616.7,546 l-15,-6.5 v13 Z"/>
+      <path class="enc" d="M368,639 Q368,630 376.9,631 L515.1,647 Q524,648 524,657 L524,711 Q524,720 515.1,721 L376.9,737 Q368,738 368,729 Z"/>
+      <text class="enc-t" x="444" y="679">Modality</text><text class="enc-t" x="444" y="708">Encoder</text>
+      <path class="link" d="M649,546 L695,462"/>
+      <circle class="tok" cx="649" cy="546" r="13"/>
+    </g>
+
+    <circle class="oplus" cx="695" cy="462" r="14"/><path class="oplus-x" d="M688,462 h14 M695,455 v14"/>
+    <text class="fus-t" x="672" y="624">Fusion</text>
+    <g class="out"><path class="wire" d="M723.3,462 H789"/><path class="head" d="M802,462 l-15,-6.5 v13 Z"/></g>
+    <rect class="result" x="806" y="433" width="128" height="58" rx="17"/>
+    <text class="result-t" x="870" y="472">Result</text>
+    <text class="note" x="870" y="525">e.g., classification</text>
+    <text class="note" x="870" y="553">label</text>
+  </g>
+</svg>
+</body>
+</html>
