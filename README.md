@@ -1,31 +1,28 @@
-<center>
+<div align="center">
 
-# Awesome Modality Missing Learning 
+# Awesome Modality Missing Learning
 
-<p align="center">
-  <a href="https://github.com/Jian-Lang/awesome-modality-missing-learning">
-    <img src="https://awesome.re/badge.svg" alt="Awesome MML">
-  </a>
-</p>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/Jian-Lang/awesome-modality-missing-learning)
 
-</center>
+</div>
 
-A collection of research studies centered on ***Modality Missing Learning (MML)*** (also referred to as Incomplete Multimodal Learning).
+A curated list of papers, code, and benchmarks on **Modality Missing Learning (MML)** — also known as *missing modality learning*, *incomplete multimodal learning*, or *multimodal learning with missing modalities*.
 
-![alt text](imgs/cover_image.png)
+![Overview of modality missing learning: in the ideal setting a multimodal model receives every modality (images, text, audio, sensor), while in the real world some modalities are missing](imgs/cover_image.png)
 
-# 📢 News
+## 📢 News
 
-+ 2026.10.09 🔥 We add the newly accepted main-conference papers in **ACM MM 2026**.
-+ 2026.08.19 🔥 We add the newly accepted methods in **ECCV 2026**.
-+ 2026.08.09 🔥 We add the newly accepted methods in **KDD 2026**.
-+ 2026.06.26 🔥 We add the newly accepted methods in **ACL 2026**.
-+ 2026.06.02 🔥 We add the newly accepted methods in **CVPR 2026**.
-+ 2026.05.26 🔥 We add the newly accepted methods in **ICML 2026** (e.g., [AOEPT](https://arxiv.org/abs/2605.24816)).
-+ 2026.04.14 🔨 We release the awesome-modality-missing-learning, which collects the methods mainly published in conferences for Modality Missing Learning (MML).
+- 2026.10.09 🔥 We add the newly accepted main-conference papers in **ACM MM 2026**.
+- 2026.08.19 🔥 We add the newly accepted methods in **ECCV 2026**.
+- 2026.08.09 🔥 We add the newly accepted methods in **KDD 2026**.
+- 2026.06.26 🔥 We add the newly accepted methods in **ACL 2026**.
+- 2026.06.02 🔥 We add the newly accepted methods in **CVPR 2026**.
+- 2026.05.26 🔥 We add the newly accepted methods in **ICML 2026** (e.g., [AOEPT](https://arxiv.org/abs/2605.24816)).
+- 2026.04.14 🔨 We release the awesome-modality-missing-learning, which collects the methods mainly published in conferences for Modality Missing Learning (MML).
 
-# 📖 Contents
-- [📃 Paper List](#📃-paper-list)
+## 📖 Contents
+
+- [📃 Paper List](#paper-list)
   - [📚 Survey & Resources](#survey)
   - [🧩 Reconstruction-based Methods](#reconstruction-based-methods)
   - [🔗 Multimodal Shared Representation Learning Methods](#multimodal-shared-representation-learning-methods)
@@ -45,24 +42,23 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
   - [🏥 Medical](#benchmarks-medical)
   - [😊 Sentiment Analysis](#benchmarks-sentiment-analysis)
   - [📦 Others](#benchmarks-others)
-- [📮 Contact Us](#📮-contact-us)
+- [📮 Contact Us](#contact-us)
 
-
-# 📃 Paper List
+<a id="paper-list"></a>
+## 📃 Paper List
 
 <a id="survey"></a>
-## 📚 Survey & Resources
-
+### 📚 Survey & Resources
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
 | [Multi-modal learning with incomplete data](https://www.nature.com/articles/s41467-026-77212-w) | Nature Communications | 2026 | [Code](https://github.com/ocbe-uio/imml) · [Docs](https://imml.readthedocs.io/) |
 | [Deep Multimodal Learning with Missing Modality: A Survey](https://openreview.net/pdf?id=tc7RFcx4hT) | TMLR | 2026 | N/A |
-| [Multimodal Learning Under Imperfect Data Conditions: A Survey](https://www.techrxiv.org/doi/full/10.36227/techrxiv.176410566.65375877) | arxiv | 2026 | N/A |
-| [Multimodal fusion on low-quality data: A comprehensive survey](https://arxiv.org/pdf/2404.18947) | arxiv | 2024 | N/A |
+| [Multimodal Learning Under Imperfect Data Conditions: A Survey](https://www.techrxiv.org/doi/full/10.36227/techrxiv.176410566.65375877) | arXiv | 2026 | N/A |
+| [Multimodal Fusion on Low-quality Data: A Comprehensive Survey](https://arxiv.org/pdf/2404.18947) | arXiv | 2024 | N/A |
 
 <a id="reconstruction-based-methods"></a>
-## 🧩 Reconstruction-based Methods
+### 🧩 Reconstruction-based Methods
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
@@ -70,8 +66,8 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [MissLDM: A Missing-aware Latent Diffusion Model for Accelerated Multi-Contrast MRI with Incomplete Modalities](https://2026.acmmm.org/site/technical-programme.html) | MM | 2026 | N/A |
 | [Posterior Samplings are Missing Modalities Generators for Medical Image Translation](https://arxiv.org/abs/2607.18763) | ECCV | 2026 | N/A |
 | [HiTF: A Hippocampal-Thalamic Function-Inspired Framework for Robust Multimodal Sentiment Analysis with Incomplete Data](https://doi.org/10.1145/3770855.3818011) | KDD | 2026 | N/A |
-| [DEAR: Distributional Error-Aware Reliability for Robust Multimodal Sentiment Analysis with Missing Modalities](https://aclanthology.org/2026.findings-acl.1517.pdf) | ACL Finding | 2026 | N/A |
-| [Uncertainty-Calibrated Elastic Alignment for Multimodal Sentiment Analysis with Missing Modalities](https://aclanthology.org/2026.findings-acl.260.pdf) | ACL Finding | 2026 | N/A |
+| [DEAR: Distributional Error-Aware Reliability for Robust Multimodal Sentiment Analysis with Missing Modalities](https://aclanthology.org/2026.findings-acl.1517.pdf) | ACL Findings | 2026 | N/A |
+| [Uncertainty-Calibrated Elastic Alignment for Multimodal Sentiment Analysis with Missing Modalities](https://aclanthology.org/2026.findings-acl.260.pdf) | ACL Findings | 2026 | N/A |
 | [Beyond Missing Modalities: Hypergraph Conditioned Diffusion for Uncertainty-Aware Multimodal Emotion Recognition](https://openaccess.thecvf.com/content/CVPR2026/papers/Qiu_Beyond_Missing_Modalities_Hypergraph_Conditioned_Diffusion_for_Uncertainty-Aware_Multimodal_Emotion_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
 | [Characterizing the Predictive Impact of Modalities with Supervised Latent-Variable Modeling](https://arxiv.org/pdf/2602.16979) | ICML | 2026 | N/A |
 | [LIMSSR: LLM-Driven Sequence-to-Score Reasoning under Training-Time Incomplete Multimodal Observations](https://icml.cc/virtual/2026/poster/66773) | ICML | 2026 | N/A |
@@ -100,7 +96,7 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [Contrastive Intra- and Inter-Modality Generation for Enhancing Incomplete Multimedia Recommendation](https://dl.acm.org/doi/10.1145/3581783.3612362) | MM | 2023 | N/A |
 | [Towards Good Practices for Missing Modality Robust Action Recognition](https://ojs.aaai.org/index.php/AAAI/article/view/25378) | AAAI | 2023 | [![Stars](https://img.shields.io/github/stars/sangminwoo/ActionMAE.svg?style=social&label=Star)](https://github.com/sangminwoo/ActionMAE) |
 | [Incomplete Multimodality-Diffused Emotion Recognition](https://proceedings.neurips.cc/paper_files/paper/2023/file/372cb7805eaccb2b7eed641271a30eec-Paper-Conference.pdf) | NeurIPS | 2023 | [![Stars](https://img.shields.io/github/stars/mdswyz/IMDer.svg?style=social&label=Star)](https://github.com/mdswyz/IMDer) |
-| [Gcnet: Graph completion network for incomplete multimodal learning in conversation](https://ieeexplore.ieee.org/abstract/document/10008078/) | TPAMI | 2023 | [![Stars](https://img.shields.io/github/stars/zeroQiaoba/GCNet.svg?style=social&label=Star)](https://github.com/zeroQiaoba/GCNet) |
+| [GCNet: Graph Completion Network for Incomplete Multimodal Learning in Conversation](https://ieeexplore.ieee.org/abstract/document/10008078/) | TPAMI | 2023 | [![Stars](https://img.shields.io/github/stars/zeroQiaoba/GCNet.svg?style=social&label=Star)](https://github.com/zeroQiaoba/GCNet) |
 | [Client-Adaptive Cross-Model Reconstruction Network for Modality-Incomplete Multimodal Federated Learning](https://dl.acm.org/doi/10.1145/3581783.3611757) | MM | 2023 | N/A |
 | [M3Care: Learning with Missing Modalities in Multimodal Healthcare Data](https://dl.acm.org/doi/10.1145/3534678.3539388) | KDD | 2022 | [![Stars](https://img.shields.io/github/stars/choczhang/M3Care.svg?style=social&label=Star)](https://github.com/choczhang/M3Care) |
 | [Missing Modality Imagination Network for Emotion Recognition with Uncertain Missing Modalities](https://aclanthology.org/2021.acl-long.203.pdf) | ACL | 2021 | [![Stars](https://img.shields.io/github/stars/AIM3-RUC/MMIN.svg?style=social&label=Star)](https://github.com/AIM3-RUC/MMIN) |
@@ -110,7 +106,7 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [Missing Modalities Imputation via Cascaded Residual Autoencoder](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tran_Missing_Modalities_Imputation_CVPR_2017_paper.pdf) | CVPR | 2017 | [![Stars](https://img.shields.io/github/stars/tranluan/CRA.svg?style=social&label=Star)](https://github.com/tranluan/CRA) |
 
 <a id="multimodal-shared-representation-learning-methods"></a>
-## 🔗 Multimodal Shared Representation Learning Methods
+### 🔗 Multimodal Shared Representation Learning Methods
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
@@ -122,16 +118,14 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [SiMO: Single-Modality-Operable Multimodal Collaborative Perception](https://openreview.net/pdf?id=h0iRgjTmVs) | ICLR | 2026 | [![Stars](https://img.shields.io/github/stars/dempsey-wen/SiMO.svg?style=social&label=Star)](https://github.com/dempsey-wen/SiMO) |
 | [TMDC: A Two-Stage Modality Denoising and Complementation Framework for Multimodal Sentiment Analysis with Missing and Noisy Modalities](https://ojs.aaai.org/index.php/AAAI/article/view/37212) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/YetZzzzzz/TMDC.svg?style=social&label=Star)](https://github.com/YetZzzzzz/TMDC) |
 | [Proxy-Driven Robust Multimodal Sentiment Analysis with Incomplete Data](https://aclanthology.org/2025.acl-long.1075.pdf) | ACL | 2025 | N/A |
-| [T2DR: A Two-Tier Deficiency-Resistant Framework for Incomplete Multimodal Learning](https://aclanthology.org/2025.findings-acl.452.pdf) | ACL Finding | 2025 | [![Stars](https://img.shields.io/github/stars/LH019/T2DR.svg?style=social&label=Star)](https://github.com/LH019/T2DR) |
+| [T2DR: A Two-Tier Deficiency-Resistant Framework for Incomplete Multimodal Learning](https://aclanthology.org/2025.findings-acl.452.pdf) | ACL Findings | 2025 | [![Stars](https://img.shields.io/github/stars/LH019/T2DR.svg?style=social&label=Star)](https://github.com/LH019/T2DR) |
 | [DrFuse: Learning Disentangled Representation for Clinical Multi-Modal Fusion with Missing Modality and Modal Inconsistency](https://ojs.aaai.org/index.php/AAAI/article/view/29578) | AAAI | 2024 | [![Stars](https://img.shields.io/github/stars/dorothy-yao/drfuse.svg?style=social&label=Star)](https://github.com/dorothy-yao/drfuse) |
 | [Multi-Modal Learning with Missing Modality via Shared-Specific Feature Modelling](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Multi-Modal_Learning_With_Missing_Modality_via_Shared-Specific_Feature_Modelling_CVPR_2023_paper.pdf) | CVPR | 2023 | [![Stars](https://img.shields.io/github/stars/billhhh/ShaSpec.svg?style=social&label=Star)](https://github.com/billhhh/ShaSpec) |
 | [Rethinking Missing Modality Learning: From a Decoding View](https://dl.acm.org/doi/10.1145/3581783.3612291) | MM | 2023 | N/A |
 | [Found in Translation: Learning Robust Joint Representations by Cyclic Translations between Modalities](https://ojs.aaai.org/index.php/AAAI/article/view/4666) | AAAI | 2019 | [![Stars](https://img.shields.io/github/stars/hainow/MCTN.svg?style=social&label=Star)](https://github.com/hainow/MCTN) |
 
-
-
 <a id="teacher-student-distillation-and-alignment-methods"></a>
-## 🎓 Teacher-Student Distillation and Alignment Methods
+### 🎓 Teacher-Student Distillation and Alignment Methods
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
@@ -150,7 +144,7 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [Multimodal Learning with Incomplete Modalities by Knowledge Distillation](https://dl.acm.org/doi/10.1145/3394486.3403234) | KDD | 2020 | [![Stars](https://img.shields.io/github/stars/illidanlab/incomplete-multimodal-kd.svg?style=social&label=Star)](https://github.com/illidanlab/incomplete-multimodal-kd) |
 
 <a id="retrieval-augmented-methods"></a>
-## 🔎 Retrieval-Augmented Methods
+### 🔎 Retrieval-Augmented Methods
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
@@ -161,16 +155,15 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [MissRAG: Addressing the Missing Modality Challenge in Multimodal Large Language Models](https://openaccess.thecvf.com/content/ICCV2025/papers/Pipoli_MissRAG_Addressing_the_Missing_Modality_Challenge_in_Multimodal_Large_Language_ICCV_2025_paper.pdf) | ICCV | 2025 | [![Stars](https://img.shields.io/github/stars/aimagelab/MissRAG.svg?style=social&label=Star)](https://github.com/aimagelab/MissRAG) |
 | [IMOL: Incomplete-Modality-Tolerant Learning for Multi-Domain Fake News Video Detection](https://aclanthology.org/2025.acl-long.1494.pdf) | ACL | 2025 | [![Stars](https://img.shields.io/github/stars/zzeng1998/IMOL_misinformation.svg?style=social&label=Star)](https://github.com/zzeng1998/IMOL_misinformation) |
 
-
 <a id="mixture-of-experts-methods"></a>
-## 📊 Mixture-of-Experts Methods
+### 📊 Mixture-of-Experts Methods
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
 | [Residual-Guided Expert Specialization for Incomplete Multimodal Learning](https://arxiv.org/abs/2606.30355) | ECCV | 2026 | [![Stars](https://img.shields.io/github/stars/seunghub/MARS.svg?style=social&label=Star)](https://github.com/seunghub/MARS) |
-| [CaM-HG: Causal-Enhanced MoE and Hypergraphs Network for Incomplete Multimodal Emotion Recognition in Conversations](https://aclanthology.org/2026.findings-acl.813.pdf) | ACL Finding | 2026 | N/A |
+| [CaM-HG: Causal-Enhanced MoE and Hypergraphs Network for Incomplete Multimodal Emotion Recognition in Conversations](https://aclanthology.org/2026.findings-acl.813.pdf) | ACL Findings | 2026 | N/A |
 | [QA-MoE: Towards a Continuous Reliability Spectrum with Quality-Aware Mixture of Experts for Robust Multimodal Sentiment Analysis](https://aclanthology.org/2026.acl-long.1461.pdf) | ACL | 2026 | N/A |
-| [CP-IMoE: Collaborative Prompt-Guided Interactive Mixture-of-Experts for Incomplete Multimodal Learning](https://openaccess.thecvf.com/content/CVPR2026F/papers/Li_CP-IMoE_Collaborative_Prompt-Guided_Interactive_Mixture-of-Experts_for_Incomplete_Multimodal_Learning_CVPRF_2026_paper.pdf) | CVPR Finding | 2026 | [![Stars](https://img.shields.io/github/stars/lijing-coder/CP-IMoE.svg?style=social&label=Star)](https://github.com/lijing-coder/CP-IMoE) |
+| [CP-IMoE: Collaborative Prompt-Guided Interactive Mixture-of-Experts for Incomplete Multimodal Learning](https://openaccess.thecvf.com/content/CVPR2026F/papers/Li_CP-IMoE_Collaborative_Prompt-Guided_Interactive_Mixture-of-Experts_for_Incomplete_Multimodal_Learning_CVPRF_2026_paper.pdf) | CVPR Findings | 2026 | [![Stars](https://img.shields.io/github/stars/lijing-coder/CP-IMoE.svg?style=social&label=Star)](https://github.com/lijing-coder/CP-IMoE) |
 | [Taming Cascaded Mixture-of-Experts for Modality-missing Multi-modal Salient Object Detection](https://ojs.aaai.org/index.php/AAAI/article/view/37959) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/Angknpng/CMoE.svg?style=social&label=Star)](https://github.com/Angknpng/CMoE) |
 | [MCMoE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment](https://ojs.aaai.org/index.php/AAAI/article/view/38104) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/XuHuangbiao/MCMoE.svg?style=social&label=Star)](https://github.com/XuHuangbiao/MCMoE) |
 | [SimMLM: A Simple Framework for Multi-modal Learning with Missing Modality](https://openaccess.thecvf.com/content/ICCV2025/papers/Li_SimMLM_A_Simple_Framework_for_Multi-modal_Learning_with_Missing_Modality_ICCV_2025_paper.pdf) | ICCV | 2025 | [![Stars](https://img.shields.io/github/stars/LezJ/SimMLM.svg?style=social&label=Star)](https://github.com/LezJ/SimMLM) |
@@ -179,15 +172,13 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [Flex-MoE: Modeling Arbitrary Modality Combination via the Flexible Mixture-of-Experts](https://proceedings.neurips.cc/paper_files/paper/2024/file/b2f2af5403042b1344f4e93b35fb67d9-Paper-Conference.pdf) | NeurIPS | 2024 | [![Stars](https://img.shields.io/github/stars/UNITES-Lab/flex-moe.svg?style=social&label=Star)](https://github.com/UNITES-Lab/flex-moe) |
 | [Leveraging Knowledge of Modality Experts for Incomplete Multimodal Learning](https://openreview.net/pdf?id=Gt3a8A1wLg) | MM | 2024 | [![Stars](https://img.shields.io/github/stars/wxxv/MoMKE.svg?style=social&label=Star)](https://github.com/wxxv/MoMKE) |
 
-
-
 <a id="modality-enhancement-learning-methods"></a>
-## ⚖️ Modality Enhancement Learning Methods
+### ⚖️ Modality Enhancement Learning Methods
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
 | [General Incomplete Multimodal Learning via Dynamic Quality Perception](https://arxiv.org/abs/2607.06943) | ECCV | 2026 | [![Stars](https://img.shields.io/github/stars/Yu-Five/GIML.svg?style=social&label=Star)](https://github.com/Yu-Five/GIML) |
-| [Not All Modalities at Once: Dynamic Dropout and Bidirectional Fusion for Robust Multi-modal Knowledge Graph Completion](https://aclanthology.org/2026.findings-acl.890.pdf) | ACL Finding | 2026 | [![Stars](https://img.shields.io/github/stars/ferryman-ship/MDBGF.svg?style=social&label=Star)](https://github.com/ferryman-ship/MDBGF) |
+| [Not All Modalities at Once: Dynamic Dropout and Bidirectional Fusion for Robust Multi-modal Knowledge Graph Completion](https://aclanthology.org/2026.findings-acl.890.pdf) | ACL Findings | 2026 | [![Stars](https://img.shields.io/github/stars/ferryman-ship/MDBGF.svg?style=social&label=Star)](https://github.com/ferryman-ship/MDBGF) |
 | [Anchor-Guided Gradient Alignment for Incomplete Multimodal Learning](https://openaccess.thecvf.com/content/CVPR2026/papers/Guan_Anchor-Guided_Gradient_Alignment_for_Incomplete_Multimodal_Learning_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
 | [Enhance-then-Balance Modality Collaboration for Robust Multimodal Sentiment Analysis](https://openaccess.thecvf.com/content/CVPR2026/papers/He_Enhance-then-Balance_Modality_Collaboration_for_Robust_Multimodal_Sentiment_Analysis_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
 | [BALM: A Model-Agnostic Framework for Balanced Multimodal Learning under Imbalanced Missing Rates](https://arxiv.org/pdf/2603.19718) | CVPR | 2026 | [![Stars](https://img.shields.io/github/stars/np4s/BALM_CVPR2026.svg?style=social&label=Star)](https://github.com/np4s/BALM_CVPR2026) |
@@ -198,18 +189,17 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [PASSION: Towards Effective Incomplete Multi-Modal Medical Image Segmentation with Imbalanced Missing Rates](https://dl.acm.org/doi/abs/10.1145/3664647.3681543) | MM | 2024 | [![Stars](https://img.shields.io/github/stars/Jun-Jie-Shi/PASSION.svg?style=social&label=Star)](https://github.com/Jun-Jie-Shi/PASSION) |
 | [Gradient-Guided Modality Decoupling for Missing-Modality Robustness](https://ojs.aaai.org/index.php/AAAI/article/view/29474) | AAAI | 2024 | [![Stars](https://img.shields.io/github/stars/HaoWang420/Gradient-guided-Modality-Decoupling.svg?style=social&label=Star)](https://github.com/HaoWang420/Gradient-guided-Modality-Decoupling) |
 
-
 <a id="continual-missing-modality-learning-methods"></a>
-## 🔄 Continual Missing Modality Learning Methods
+### 🔄 Continual Missing Modality Learning Methods
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
-| [DeLo: Dual Decomposed Low-Rank Experts Collaborationfor Continual Missing Modality Learning](https://ojs.aaai.org/index.php/AAAI/article/view/39561) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/Xiwei-web/DeLo.svg?style=social&label=Star)](https://github.com/Xiwei-web/DeLo) |
+| [DeLo: Dual Decomposed Low-Rank Experts Collaboration for Continual Missing Modality Learning](https://ojs.aaai.org/index.php/AAAI/article/view/39561) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/Xiwei-web/DeLo.svg?style=social&label=Star)](https://github.com/Xiwei-web/DeLo) |
 | [Efficient Prompting for Continual Adaptation to Missing Modalities](https://aclanthology.org/2025.naacl-long.219.pdf) | NAACL | 2025 | N/A |
-| [Reconstruct before Query: Continual Missing Modality Learning with Decomposed Prompt Collaboration](https://arxiv.org/abs/2403.11373) | arxiv | 2024 | [![Stars](https://img.shields.io/github/stars/Tree-Shu-Zhao/RebQ.pytorch.svg?style=social&label=Star)](https://github.com/Tree-Shu-Zhao/RebQ.pytorch) |
+| [Reconstruct before Query: Continual Missing Modality Learning with Decomposed Prompt Collaboration](https://arxiv.org/abs/2403.11373) | arXiv | 2024 | [![Stars](https://img.shields.io/github/stars/Tree-Shu-Zhao/RebQ.pytorch.svg?style=social&label=Star)](https://github.com/Tree-Shu-Zhao/RebQ.pytorch) |
 
 <a id="multimodal-transformer-oriented-methods"></a>
-## ⚙️ Multimodal Transformer-oriented Methods
+### ⚙️ Multimodal Transformer-oriented Methods
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
@@ -223,35 +213,33 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [Enhancing Multimodal Model Robustness Under Missing Modalities via Memory-Driven Prompt Learning](https://www.ijcai.org/proceedings/2025/0274.pdf) | IJCAI | 2025 | [![Stars](https://img.shields.io/github/stars/zhao-yh20/MemPrompt.svg?style=social&label=Star)](https://github.com/zhao-yh20/MemPrompt) |
 | [Deep Correlated Prompting for Visual Recognition with Missing Modalities](https://openreview.net/pdf?id=zO55ovdLJw) | NeurIPS | 2024 | [![Stars](https://img.shields.io/github/stars/hulianyuyy/Deep_Correlated_Prompting.svg?style=social&label=Star)](https://github.com/hulianyuyy/Deep_Correlated_Prompting) |
 | [Multimodal Prompt Learning with Missing Modalities for Sentiment Analysis and Emotion Recognition](https://aclanthology.org/2024.acl-long.94.pdf) | ACL | 2024 | [![Stars](https://img.shields.io/github/stars/zrguo/MPLMM.svg?style=social&label=Star)](https://github.com/zrguo/MPLMM) |
-| [Missing Modality Prediction for Unpaired Multimodal Learning via Joint Embedding of Unimodal Models](https://aclanthology.org/2024.acl-long.94.pdf) | ECCV | 2024 | N/A |
+| [Missing Modality Prediction for Unpaired Multimodal Learning via Joint Embedding of Unimodal Models](https://arxiv.org/abs/2407.12616) | ECCV | 2024 | N/A |
 | [Multimodal Prompting with Missing Modalities for Visual Recognition](https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Multimodal_Prompting_With_Missing_Modalities_for_Visual_Recognition_CVPR_2023_paper.pdf) | CVPR | 2023 | [![Stars](https://img.shields.io/github/stars/YiLunLee/missing_aware_prompts.svg?style=social&label=Star)](https://github.com/YiLunLee/missing_aware_prompts) |
 | [Are Multimodal Transformers Robust to Missing Modality?](https://openaccess.thecvf.com/content/CVPR2022/papers/Ma_Are_Multimodal_Transformers_Robust_to_Missing_Modality_CVPR_2022_paper.pdf) | CVPR | 2022 | N/A |
 
-
 <a id="large-multimodal-model-oriented-methods"></a>
-## 🤖 Large Multimodal Model-oriented Methods
+### 🤖 Large Multimodal Model-oriented Methods
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
-| [EmoMM: Benchmarking and Steering MLLM for Multimodal Emotion Recognition under Conflict and Missingness](https://aclanthology.org/2026.findings-acl.1018.pdf) | ACL Finding | 2026 | N/A |
-| [Learning Flexible Large Multimodal Models with Arbitrary Modality Combinations](https://aclanthology.org/2026.findings-acl.517.pdf) | ACL Finding | 2026 | N/A |
+| [EmoMM: Benchmarking and Steering MLLM for Multimodal Emotion Recognition under Conflict and Missingness](https://aclanthology.org/2026.findings-acl.1018.pdf) | ACL Findings | 2026 | N/A |
+| [Learning Flexible Large Multimodal Models with Arbitrary Modality Combinations](https://aclanthology.org/2026.findings-acl.517.pdf) | ACL Findings | 2026 | N/A |
 | [MissRAG: Addressing the Missing Modality Challenge in Multimodal Large Language Models](https://openaccess.thecvf.com/content/ICCV2025/papers/Pipoli_MissRAG_Addressing_the_Missing_Modality_Challenge_in_Multimodal_Large_Language_ICCV_2025_paper.pdf) | ICCV | 2025 | [![Stars](https://img.shields.io/github/stars/aimagelab/MissRAG.svg?style=social&label=Star)](https://github.com/aimagelab/MissRAG) |
 
-
 <a id="downstream-applications"></a>
-## 🎯 Downstream Applications
+### 🎯 Downstream Applications
 
 <a id="medical-applications"></a>
-### 🏥 Medical Applications
+#### 🏥 Medical Applications
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
 | [MissLDM: A Missing-aware Latent Diffusion Model for Accelerated Multi-Contrast MRI with Incomplete Modalities](https://2026.acmmm.org/site/technical-programme.html) | MM | 2026 | N/A |
 | [Posterior Samplings are Missing Modalities Generators for Medical Image Translation](https://arxiv.org/abs/2607.18763) | ECCV | 2026 | N/A |
-| [Learning Dynamic Representations and Policies from Multimodal Clinical Time-Series with Informative Missingness](https://aclanthology.org/2026.findings-acl.1313.pdf) | ACL Finding | 2026 | [![Stars](https://img.shields.io/github/stars/CausalMLResearch/OPL-MT-MNAR.svg?style=social&label=Star)](https://github.com/CausalMLResearch/OPL-MT-MNAR) |
+| [Learning Dynamic Representations and Policies from Multimodal Clinical Time-Series with Informative Missingness](https://aclanthology.org/2026.findings-acl.1313.pdf) | ACL Findings | 2026 | [![Stars](https://img.shields.io/github/stars/CausalMLResearch/OPL-MT-MNAR.svg?style=social&label=Star)](https://github.com/CausalMLResearch/OPL-MT-MNAR) |
 | [Uni-Encoder Meets Multi-Encoders: Representation Before Fusion for Brain Tumor Segmentation with Missing Modalities](https://openaccess.thecvf.com/content/CVPR2026/papers/Song_Uni-Encoder_Meets_Multi-Encoders_Representation_Before_Fusion_for_Brain_Tumor_Segmentation_CVPR_2026_paper.pdf) | CVPR | 2026 | [![Stars](https://img.shields.io/github/stars/Hooorace-S/UniME.svg?style=social&label=Star)](https://github.com/Hooorace-S/UniME) |
 | [Virtual Nodes Guided Dynamic Graph Neural Network for Brain Tumor Segmentation with Missing Modalities](https://openaccess.thecvf.com/content/CVPR2026/papers/Tao_Virtual_Nodes_Guided_Dynamic_Graph_Neural_Network_for_Brain_Tumor_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
-| [CP-IMoE: Collaborative Prompt-Guided Interactive Mixture-of-Experts for Incomplete Multimodal Learning](https://openaccess.thecvf.com/content/CVPR2026F/papers/Li_CP-IMoE_Collaborative_Prompt-Guided_Interactive_Mixture-of-Experts_for_Incomplete_Multimodal_Learning_CVPRF_2026_paper.pdf) | CVPR Finding | 2026 | [![Stars](https://img.shields.io/github/stars/lijing-coder/CP-IMoE.svg?style=social&label=Star)](https://github.com/lijing-coder/CP-IMoE) |
+| [CP-IMoE: Collaborative Prompt-Guided Interactive Mixture-of-Experts for Incomplete Multimodal Learning](https://openaccess.thecvf.com/content/CVPR2026F/papers/Li_CP-IMoE_Collaborative_Prompt-Guided_Interactive_Mixture-of-Experts_for_Incomplete_Multimodal_Learning_CVPRF_2026_paper.pdf) | CVPR Findings | 2026 | [![Stars](https://img.shields.io/github/stars/lijing-coder/CP-IMoE.svg?style=social&label=Star)](https://github.com/lijing-coder/CP-IMoE) |
 | [Tackling Dual-stage Missing Modalities in Brain Tumor Segmentation via Robust Modality Reconstruction and Prompt-guided Modality Adaptation](https://ojs.aaai.org/index.php/AAAI/article/view/38334) | AAAI | 2026 | N/A |
 | [MUST: Modality-Specific Representation-Aware Transformer for Diffusion-Enhanced Survival Prediction with Missing Modality](https://arxiv.org/pdf/2603.26071v1) | CVPR | 2026 | [![Stars](https://img.shields.io/github/stars/KyleKWKim/MUST.svg?style=social&label=Star)](https://github.com/KyleKWKim/MUST) |
 | [Semantic-guided Masked Mutual Learning for Multi-modal Brain Tumor Segmentation with Arbitrary Missing Modalities](https://ojs.aaai.org/index.php/AAAI/article/view/32545) | AAAI | 2025 | N/A |
@@ -265,9 +253,8 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [Modal-aware Visual Prompting for Incomplete Multi-modal Brain Tumor Segmentation](https://dl.acm.org/doi/10.1145/3581783.3611712) | MM | 2023 | N/A |
 | [M3Care: Learning with Missing Modalities in Multimodal Healthcare Data](https://dl.acm.org/doi/10.1145/3534678.3539388) | KDD | 2022 | [![Stars](https://img.shields.io/github/stars/choczhang/M3Care.svg?style=social&label=Star)](https://github.com/choczhang/M3Care) |
 
-
 <a id="multimodal-sentiment-analysis"></a>
-### 😊 Multimodal Sentiment Analysis
+#### 😊 Multimodal Sentiment Analysis
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
@@ -275,17 +262,17 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [TC-Flow: Trajectory-Coupled Multimodal Flow Matching for Incomplete Modality Learning](https://2026.acmmm.org/site/technical-programme.html) | MM | 2026 | N/A |
 | [Progressive Representation Learning for Multimodal Sentiment Analysis with Incomplete Modalities](https://arxiv.org/abs/2603.09111) | ECCV | 2026 | N/A |
 | [HiTF: A Hippocampal-Thalamic Function-Inspired Framework for Robust Multimodal Sentiment Analysis with Incomplete Data](https://doi.org/10.1145/3770855.3818011) | KDD | 2026 | N/A |
-| [DEAR: Distributional Error-Aware Reliability for Robust Multimodal Sentiment Analysis with Missing Modalities](https://aclanthology.org/2026.findings-acl.1517.pdf) | ACL Finding | 2026 | N/A |
-| [Uncertainty-Calibrated Elastic Alignment for Multimodal Sentiment Analysis with Missing Modalities](https://aclanthology.org/2026.findings-acl.260.pdf) | ACL Finding | 2026 | N/A |
-| [CaM-HG: Causal-Enhanced MoE and Hypergraphs Network for Incomplete Multimodal Emotion Recognition in Conversations](https://aclanthology.org/2026.findings-acl.813.pdf) | ACL Finding | 2026 | N/A |
+| [DEAR: Distributional Error-Aware Reliability for Robust Multimodal Sentiment Analysis with Missing Modalities](https://aclanthology.org/2026.findings-acl.1517.pdf) | ACL Findings | 2026 | N/A |
+| [Uncertainty-Calibrated Elastic Alignment for Multimodal Sentiment Analysis with Missing Modalities](https://aclanthology.org/2026.findings-acl.260.pdf) | ACL Findings | 2026 | N/A |
+| [CaM-HG: Causal-Enhanced MoE and Hypergraphs Network for Incomplete Multimodal Emotion Recognition in Conversations](https://aclanthology.org/2026.findings-acl.813.pdf) | ACL Findings | 2026 | N/A |
 | [QA-MoE: Towards a Continuous Reliability Spectrum with Quality-Aware Mixture of Experts for Robust Multimodal Sentiment Analysis](https://aclanthology.org/2026.acl-long.1461.pdf) | ACL | 2026 | N/A |
-| [EmoMM: Benchmarking and Steering MLLM for Multimodal Emotion Recognition under Conflict and Missingness](https://aclanthology.org/2026.findings-acl.1018.pdf) | ACL Finding | 2026 | N/A |
+| [EmoMM: Benchmarking and Steering MLLM for Multimodal Emotion Recognition under Conflict and Missingness](https://aclanthology.org/2026.findings-acl.1018.pdf) | ACL Findings | 2026 | N/A |
 | [Beyond Missing Modalities: Hypergraph Conditioned Diffusion for Uncertainty-Aware Multimodal Emotion Recognition](https://openaccess.thecvf.com/content/CVPR2026/papers/Qiu_Beyond_Missing_Modalities_Hypergraph_Conditioned_Diffusion_for_Uncertainty-Aware_Multimodal_Emotion_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
 | [CICA: Coupling Confidence-Aware Pretraining with Confidence-Informed Attention for Robust Multimodal Sentiment Analysis](https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_CICA_Coupling_Confidence-Aware_Pretraining_with_Confidence-Informed_Attention_for_Robust_Multimodal_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
 | [Enhance-then-Balance Modality Collaboration for Robust Multimodal Sentiment Analysis](https://openaccess.thecvf.com/content/CVPR2026/papers/He_Enhance-then-Balance_Modality_Collaboration_for_Robust_Multimodal_Sentiment_Analysis_CVPR_2026_paper.pdf) | CVPR | 2026 | N/A |
 | [Cross-modal Prompting for Balanced Incomplete Multi-modal Emotion Recognition](https://ojs.aaai.org/index.php/AAAI/article/view/38800) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/WenjueHE/2026-AAAI-ComP.svg?style=social&label=Star)](https://github.com/WenjueHE/2026-AAAI-ComP) |
 | [Recovering Coherent Affective Patterns: Addressing Modality Missing in Multimodal Sentiment Analysis](https://ojs.aaai.org/index.php/AAAI/article/view/39349) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/Taylor-HHT/RECAP-MSA.svg?style=social&label=Star)](https://github.com/Taylor-HHT/RECAP-MSA) |
-| [TMDC: A Two-Stage Modality Denoising and Complementation Framework for Multimodal Sentiment Analysis with Missing and Noisy Modalities](https://arxiv.org/pdf/2511.10325) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/YetZzzzzz/TMDC.svg?style=social&label=Star)](https://github.com/YetZzzzzz/TMDC) |
+| [TMDC: A Two-Stage Modality Denoising and Complementation Framework for Multimodal Sentiment Analysis with Missing and Noisy Modalities](https://ojs.aaai.org/index.php/AAAI/article/view/37212) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/YetZzzzzz/TMDC.svg?style=social&label=Star)](https://github.com/YetZzzzzz/TMDC) |
 | [Proxy-Driven Robust Multimodal Sentiment Analysis with Incomplete Data](https://aclanthology.org/2025.acl-long.1075.pdf) | ACL | 2025 | N/A |
 | [CMAD: Correlation-Aware and Modalities-Aware Distillation for Multimodal Sentiment Analysis with Missing Modalities](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhuang_CMAD_Correlation-Aware_and_Modalities-Aware_Distillation_for_Multimodal_Sentiment_Analysis_with_ICCV_2025_paper.pdf) | ICCV | 2025 | [![Stars](https://img.shields.io/github/stars/YetZzzzzz/CMAD.svg?style=social&label=Star)](https://github.com/YetZzzzzz/CMAD) |
 | [Multimodal Emotion Recognition with Missing Modality via a Unified Multi-task Pre-training Framework](https://dl.acm.org/doi/10.1145/3746027.3755459) | MM | 2025 | [![Stars](https://img.shields.io/github/stars/iiieeeve/UMAP.svg?style=social&label=Star)](https://github.com/iiieeeve/UMAP) |
@@ -300,17 +287,15 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [Missing Modality Imagination Network for Emotion Recognition with Uncertain Missing Modalities](https://aclanthology.org/2021.acl-long.203.pdf) | ACL | 2021 | [![Stars](https://img.shields.io/github/stars/AIM3-RUC/MMIN.svg?style=social&label=Star)](https://github.com/AIM3-RUC/MMIN) |
 | [Semi-supervised Deep Generative Modelling of Incomplete Multi-Modality Emotional Data](https://dl.acm.org/doi/10.1145/3240508.3240528) | MM | 2018 | N/A |
 
-
-
 <a id="other-applications"></a>
-### 🧪 Other Applications
+#### 🧪 Other Applications
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
 | [Compass: Degradation-Simulated Reciprocal Learning with Lightweight Needle RWKV for Multimodal Crack Segmentation under Missing Modalities](https://arxiv.org/abs/2608.03559) | MM | 2026 | [![Stars](https://img.shields.io/github/stars/Karl1109/Compass.svg?style=social&label=Star)](https://github.com/Karl1109/Compass) |
 | [BIP: Bi-level Information Transfer and Completion Prompting for Visual Recognition with Missing Modalities](https://eccv.ecva.net/virtual/2026/poster/4101) | ECCV | 2026 | N/A |
 | [Retrieving to Recover: Towards Incomplete Audio-Visual Question Answering via Semantic-consistent Purification](https://aclanthology.org/2026.acl-long.961.pdf) | ACL | 2026 | N/A |
-| [Not All Modalities at Once: Dynamic Dropout and Bidirectional Fusion for Robust Multi-modal Knowledge Graph Completion](https://aclanthology.org/2026.findings-acl.890.pdf) | ACL Finding | 2026 | [![Stars](https://img.shields.io/github/stars/ferryman-ship/MDBGF.svg?style=social&label=Star)](https://github.com/ferryman-ship/MDBGF) |
+| [Not All Modalities at Once: Dynamic Dropout and Bidirectional Fusion for Robust Multi-modal Knowledge Graph Completion](https://aclanthology.org/2026.findings-acl.890.pdf) | ACL Findings | 2026 | [![Stars](https://img.shields.io/github/stars/ferryman-ship/MDBGF.svg?style=social&label=Star)](https://github.com/ferryman-ship/MDBGF) |
 | [MCMoE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment](https://ojs.aaai.org/index.php/AAAI/article/view/38104) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/XuHuangbiao/MCMoE.svg?style=social&label=Star)](https://github.com/XuHuangbiao/MCMoE) |
 | [Taming Cascaded Mixture-of-Experts for Modality-missing Multi-modal Salient Object Detection](https://ojs.aaai.org/index.php/AAAI/article/view/37959) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/Angknpng/CMoE.svg?style=social&label=Star)](https://github.com/Angknpng/CMoE) |
 | [Towards Unified Vision-Language Models with Incomplete Multi-Modal Inputs](https://ojs.aaai.org/index.php/AAAI/article/view/37387) | AAAI | 2026 | N/A |
@@ -330,11 +315,10 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [Towards Good Practices for Missing Modality Robust Action Recognition](https://ojs.aaai.org/index.php/AAAI/article/view/25378) | AAAI | 2023 | [![Stars](https://img.shields.io/github/stars/sangminwoo/ActionMAE.svg?style=social&label=Star)](https://github.com/sangminwoo/ActionMAE) |
 | [Multimodal Prompting with Missing Modalities for Visual Recognition](https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Multimodal_Prompting_With_Missing_Modalities_for_Visual_Recognition_CVPR_2023_paper.pdf) | CVPR | 2023 | [![Stars](https://img.shields.io/github/stars/YiLunLee/missing_aware_prompts.svg?style=social&label=Star)](https://github.com/YiLunLee/missing_aware_prompts) |
 | [Contrastive Intra- and Inter-Modality Generation for Enhancing Incomplete Multimedia Recommendation](https://dl.acm.org/doi/10.1145/3581783.3612362) | MM | 2023 | N/A |
-| [Gcnet: Graph completion network for incomplete multimodal learning in conversation](https://ieeexplore.ieee.org/abstract/document/10008078/) | TPAMI | 2023 | [![Stars](https://img.shields.io/github/stars/zeroQiaoba/GCNet.svg?style=social&label=Star)](https://github.com/zeroQiaoba/GCNet) |
-
+| [GCNet: Graph Completion Network for Incomplete Multimodal Learning in Conversation](https://ieeexplore.ieee.org/abstract/document/10008078/) | TPAMI | 2023 | [![Stars](https://img.shields.io/github/stars/zeroQiaoba/GCNet.svg?style=social&label=Star)](https://github.com/zeroQiaoba/GCNet) |
 
 <a id="others"></a>
-## 📦 Others
+### 📦 Others
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
@@ -342,12 +326,11 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | [Coverage ≠ Exposure: Auditable Control of Same-Support Tail Failures under Multimodal Missingness](https://icml.cc/virtual/2026/poster/65812) | ICML | 2026 | N/A |
 | [ICYM2I: The illusion of multimodal informativeness under missingness](https://openreview.net/pdf?id=jC7FK8Rf4s) | ICLR | 2026 | [![Stars](https://img.shields.io/github/stars/reAIM-Lab/ICYM2I.svg?style=social&label=Star)](https://github.com/reAIM-Lab/ICYM2I) |
 
-
 <a id="benchmarks"></a>
-# 🏆 Benchmarks
+## 🏆 Benchmarks
 
 <a id="benchmarks-medical"></a>
-## 🏥 Medical
+### 🏥 Medical
 
 | Benchmark | Modality | Description | Paper |
 |-------|-------|-------|-------|
@@ -362,9 +345,8 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | ODIR | Fundus images + age + diagnostic keywords | An ophthalmology benchmark combining retinal fundus images with metadata and diagnostic tags. It supports multimodal ocular disease prediction when image or clinical attributes are incomplete. | [Paper](https://link.springer.com/chapter/10.1007/978-3-030-71058-3_11) |
 | TCGA Pan-Cancer | Pathology / genomics / clinical | A multimodal oncology benchmark spanning pathology, molecular profiles, and clinical records across many cancer types. Different papers usually construct task-specific subsets for survival prediction or risk modeling under missing modalities. | [Paper](https://gdc.cancer.gov/about-data/publications/PanCan-Clinical-2018) |
 
-
 <a id="benchmarks-sentiment-analysis"></a>
-## 😊 Sentiment Analysis
+### 😊 Sentiment Analysis
 
 | Benchmark | Modality | Description | Paper |
 |-------|-------|-------|-------|
@@ -374,7 +356,7 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | CH-SIMS | Audio + video + text | A Chinese multimodal sentiment benchmark with fine-grained modality annotations. It is useful for evaluating missing-modality methods beyond English-centric datasets. | [Paper](https://aclanthology.org/2020.acl-main.343/) |
 
 <a id="benchmarks-others"></a>
-## 📦 Others
+### 📦 Others
 
 | Benchmark | Modality | Description | Paper |
 |-------|-------|-------|-------|
@@ -384,8 +366,9 @@ A collection of research studies centered on ***Modality Missing Learning (MML)*
 | Audiovision-MNIST (avMNIST) | Image + audio | A bimodal digit classification benchmark composed of MNIST images and spoken-digit audio represented by MFCCs. It is a simple but widely used testbed for missing-modality classification with independent visual and acoustic inputs. | [Paper](https://openaccess.thecvf.com/content_eccv_2018_workshops/w35/html/Vielzeuf_CentralNet_a_Multilayer_Approach_for_Multimodal_Fusion_ECCVW_2018_paper.html) |
 | PolyMNIST | Five image modalities | A synthetic multimodal benchmark where the same digit is rendered in five modality-specific visual styles with different backgrounds. It is widely used to test scalability and arbitrary missing-modality combinations beyond two-modal settings. | [Paper](https://openreview.net/forum?id=5Y21V0RDBV) |
 
-# 📮 Contact Us
+<a id="contact-us"></a>
+## 📮 Contact Us
 
-If you find any missing work related to MML, please report it by creating an [Issue](https://github.com/jian-lang/awesome-modality-missing-learning/issues/new) in the repository to contribute the community together.
+If you find any missing work related to MML, please report it by opening an [issue](https://github.com/Jian-Lang/awesome-modality-missing-learning/issues/new) so that we can keep improving this list together with the community.
 
 If you have other questions, please contact jian_lang@std.uestc.edu.cn.
