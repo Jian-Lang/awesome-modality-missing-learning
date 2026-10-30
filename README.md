@@ -12,6 +12,7 @@ A curated list of papers, code, and benchmarks on **Modality Missing Learning (M
 
 ## 📢 News
 
+- 2026.10.30 🔥 We add the newly accepted methods in **EMNLP 2026**.
 - 2026.10.09 🔥 We add the newly accepted main-conference papers in **ACM MM 2026**.
 - 2026.08.19 🔥 We add the newly accepted methods in **ECCV 2026**.
 - 2026.08.09 🔥 We add the newly accepted methods in **KDD 2026**.
@@ -62,6 +63,11 @@ A curated list of papers, code, and benchmarks on **Modality Missing Learning (M
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Select the Key, Then Generate the Rest: Improving Multi-Modal Learning with Limited Data Budget](https://aclanthology.org/2026.emnlp-main.683.pdf) | EMNLP | 2026 | [![Stars](https://img.shields.io/github/stars/UNITES-Lab/SK-ll.svg?style=social&label=Star)](https://github.com/UNITES-Lab/SK-ll) |
+| [HyDRA: Hyperbolic Damage-aware Recovery and Adaptation for Robust Multimodal Sentiment Analysis with Incomplete Data](https://aclanthology.org/2026.emnlp-main.2492.pdf) | EMNLP | 2026 | N/A |
+| [Robust Multimodal Sentiment Analysis with Incomplete Modalities via Semantic-aware Completeness based Reconstruction](https://aclanthology.org/2026.findings-emnlp.17.pdf) | EMNLP Findings | 2026 | N/A |
+| [Plan the Semantics, Then Render the Signal: A Hybrid State-Space Model for Incomplete Multimodal Learning](https://aclanthology.org/2026.findings-emnlp.1563.pdf) | EMNLP Findings | 2026 | N/A |
+| [When Clinical Notes Are Incomplete: Fusing Clinical Notes and Time Series Using Diffusion-based Models](https://aclanthology.org/2026.findings-emnlp.2416.pdf) | EMNLP Findings | 2026 | N/A |
 | [TC-Flow: Trajectory-Coupled Multimodal Flow Matching for Incomplete Modality Learning](https://2026.acmmm.org/site/technical-programme.html) | MM | 2026 | N/A |
 | [MissLDM: A Missing-aware Latent Diffusion Model for Accelerated Multi-Contrast MRI with Incomplete Modalities](https://2026.acmmm.org/site/technical-programme.html) | MM | 2026 | N/A |
 | [Posterior Samplings are Missing Modalities Generators for Medical Image Translation](https://arxiv.org/abs/2607.18763) | ECCV | 2026 | N/A |
@@ -129,6 +135,7 @@ A curated list of papers, code, and benchmarks on **Modality Missing Learning (M
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Modality Disentangled Learning for Incomplete Multimodal Emotion Recognition: A Primitive Memory Distillation Perspective](https://aclanthology.org/2026.findings-emnlp.2220.pdf) | EMNLP Findings | 2026 | [![Stars](https://img.shields.io/github/stars/JiaqiZhang-Sengoku/PriMD.svg?style=social&label=Star)](https://github.com/JiaqiZhang-Sengoku/PriMD) |
 | [Compass: Degradation-Simulated Reciprocal Learning with Lightweight Needle RWKV for Multimodal Crack Segmentation under Missing Modalities](https://arxiv.org/abs/2608.03559) | MM | 2026 | [![Stars](https://img.shields.io/github/stars/Karl1109/Compass.svg?style=social&label=Star)](https://github.com/Karl1109/Compass) |
 | [Alignment-Free Multi-Modality Large-Small Model Bidirectional Collaboration with Missing Modality](https://doi.org/10.1145/3770855.3817904) | KDD | 2026 | N/A |
 | [Towards Unified Vision-Language Models with Incomplete Multi-Modal Inputs](https://ojs.aaai.org/index.php/AAAI/article/view/37387) | AAAI | 2026 | N/A |
@@ -160,6 +167,8 @@ A curated list of papers, code, and benchmarks on **Modality Missing Learning (M
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [LEO-Fuse: A Modality- and Task-Agnostic Universal Framework for Multimodal Human Sensing](https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/7588.pdf) | ECCV | 2026 | N/A |
+| [Adaptive Hierarchical Representation Alliance for Multimodal Learning](https://aclanthology.org/2026.findings-emnlp.1014.pdf) | EMNLP Findings | 2026 | N/A |
 | [Residual-Guided Expert Specialization for Incomplete Multimodal Learning](https://arxiv.org/abs/2606.30355) | ECCV | 2026 | [![Stars](https://img.shields.io/github/stars/seunghub/MARS.svg?style=social&label=Star)](https://github.com/seunghub/MARS) |
 | [CaM-HG: Causal-Enhanced MoE and Hypergraphs Network for Incomplete Multimodal Emotion Recognition in Conversations](https://aclanthology.org/2026.findings-acl.813.pdf) | ACL Findings | 2026 | N/A |
 | [QA-MoE: Towards a Continuous Reliability Spectrum with Quality-Aware Mixture of Experts for Robust Multimodal Sentiment Analysis](https://aclanthology.org/2026.acl-long.1461.pdf) | ACL | 2026 | N/A |
@@ -222,6 +231,7 @@ A curated list of papers, code, and benchmarks on **Modality Missing Learning (M
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Plan the Semantics, Then Render the Signal: A Hybrid State-Space Model for Incomplete Multimodal Learning](https://aclanthology.org/2026.findings-emnlp.1563.pdf) | EMNLP Findings | 2026 | N/A |
 | [EmoMM: Benchmarking and Steering MLLM for Multimodal Emotion Recognition under Conflict and Missingness](https://aclanthology.org/2026.findings-acl.1018.pdf) | ACL Findings | 2026 | N/A |
 | [Learning Flexible Large Multimodal Models with Arbitrary Modality Combinations](https://aclanthology.org/2026.findings-acl.517.pdf) | ACL Findings | 2026 | N/A |
 | [MissRAG: Addressing the Missing Modality Challenge in Multimodal Large Language Models](https://openaccess.thecvf.com/content/ICCV2025/papers/Pipoli_MissRAG_Addressing_the_Missing_Modality_Challenge_in_Multimodal_Large_Language_ICCV_2025_paper.pdf) | ICCV | 2025 | [![Stars](https://img.shields.io/github/stars/aimagelab/MissRAG.svg?style=social&label=Star)](https://github.com/aimagelab/MissRAG) |
@@ -234,6 +244,8 @@ A curated list of papers, code, and benchmarks on **Modality Missing Learning (M
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Select the Key, Then Generate the Rest: Improving Multi-Modal Learning with Limited Data Budget](https://aclanthology.org/2026.emnlp-main.683.pdf) | EMNLP | 2026 | [![Stars](https://img.shields.io/github/stars/UNITES-Lab/SK-ll.svg?style=social&label=Star)](https://github.com/UNITES-Lab/SK-ll) |
+| [When Clinical Notes Are Incomplete: Fusing Clinical Notes and Time Series Using Diffusion-based Models](https://aclanthology.org/2026.findings-emnlp.2416.pdf) | EMNLP Findings | 2026 | N/A |
 | [MissLDM: A Missing-aware Latent Diffusion Model for Accelerated Multi-Contrast MRI with Incomplete Modalities](https://2026.acmmm.org/site/technical-programme.html) | MM | 2026 | N/A |
 | [Posterior Samplings are Missing Modalities Generators for Medical Image Translation](https://arxiv.org/abs/2607.18763) | ECCV | 2026 | N/A |
 | [Learning Dynamic Representations and Policies from Multimodal Clinical Time-Series with Informative Missingness](https://aclanthology.org/2026.findings-acl.1313.pdf) | ACL Findings | 2026 | [![Stars](https://img.shields.io/github/stars/CausalMLResearch/OPL-MT-MNAR.svg?style=social&label=Star)](https://github.com/CausalMLResearch/OPL-MT-MNAR) |
@@ -258,6 +270,12 @@ A curated list of papers, code, and benchmarks on **Modality Missing Learning (M
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [Select the Key, Then Generate the Rest: Improving Multi-Modal Learning with Limited Data Budget](https://aclanthology.org/2026.emnlp-main.683.pdf) | EMNLP | 2026 | [![Stars](https://img.shields.io/github/stars/UNITES-Lab/SK-ll.svg?style=social&label=Star)](https://github.com/UNITES-Lab/SK-ll) |
+| [HyDRA: Hyperbolic Damage-aware Recovery and Adaptation for Robust Multimodal Sentiment Analysis with Incomplete Data](https://aclanthology.org/2026.emnlp-main.2492.pdf) | EMNLP | 2026 | N/A |
+| [Robust Multimodal Sentiment Analysis with Incomplete Modalities via Semantic-aware Completeness based Reconstruction](https://aclanthology.org/2026.findings-emnlp.17.pdf) | EMNLP Findings | 2026 | N/A |
+| [MissMAC-Bench: Building Solid Benchmark for Missing Modality Issue in Robust Multimodal Affective Computing](https://aclanthology.org/2026.findings-emnlp.978.pdf) | EMNLP Findings | 2026 | [![Stars](https://img.shields.io/github/stars/RH-Lin/MissMAC-Bench.svg?style=social&label=Star)](https://github.com/RH-Lin/MissMAC-Bench) |
+| [Adaptive Hierarchical Representation Alliance for Multimodal Learning](https://aclanthology.org/2026.findings-emnlp.1014.pdf) | EMNLP Findings | 2026 | N/A |
+| [Modality Disentangled Learning for Incomplete Multimodal Emotion Recognition: A Primitive Memory Distillation Perspective](https://aclanthology.org/2026.findings-emnlp.2220.pdf) | EMNLP Findings | 2026 | [![Stars](https://img.shields.io/github/stars/JiaqiZhang-Sengoku/PriMD.svg?style=social&label=Star)](https://github.com/JiaqiZhang-Sengoku/PriMD) |
 | [Face Is Not All You Need: MIME Benchmark for Incomplete Multimodal Emotion Recognition](https://yuxinokk.github.io/MIME/) | MM | 2026 | [![Stars](https://img.shields.io/github/stars/oiiizhou/MIME.svg?style=social&label=Star)](https://github.com/oiiizhou/MIME) |
 | [TC-Flow: Trajectory-Coupled Multimodal Flow Matching for Incomplete Modality Learning](https://2026.acmmm.org/site/technical-programme.html) | MM | 2026 | N/A |
 | [Progressive Representation Learning for Multimodal Sentiment Analysis with Incomplete Modalities](https://arxiv.org/abs/2603.09111) | ECCV | 2026 | N/A |
@@ -292,6 +310,9 @@ A curated list of papers, code, and benchmarks on **Modality Missing Learning (M
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
+| [LEO-Fuse: A Modality- and Task-Agnostic Universal Framework for Multimodal Human Sensing](https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/7588.pdf) | ECCV | 2026 | N/A |
+| [Towards Real-World Wearable Motion Reconstruction](https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/8232.pdf) | ECCV | 2026 | N/A |
+| [Two-Sided State-Space Models for Sequential Recommendation with Non-Random Multimodal Review Feedback](https://aclanthology.org/2026.findings-emnlp.11.pdf) | EMNLP Findings | 2026 | N/A |
 | [Compass: Degradation-Simulated Reciprocal Learning with Lightweight Needle RWKV for Multimodal Crack Segmentation under Missing Modalities](https://arxiv.org/abs/2608.03559) | MM | 2026 | [![Stars](https://img.shields.io/github/stars/Karl1109/Compass.svg?style=social&label=Star)](https://github.com/Karl1109/Compass) |
 | [BIP: Bi-level Information Transfer and Completion Prompting for Visual Recognition with Missing Modalities](https://eccv.ecva.net/virtual/2026/poster/4101) | ECCV | 2026 | N/A |
 | [Retrieving to Recover: Towards Incomplete Audio-Visual Question Answering via Semantic-consistent Purification](https://aclanthology.org/2026.acl-long.961.pdf) | ACL | 2026 | N/A |
@@ -350,6 +371,7 @@ A curated list of papers, code, and benchmarks on **Modality Missing Learning (M
 
 | Benchmark | Modality | Description | Paper |
 |-------|-------|-------|-------|
+| MissMAC-Bench | Audio + video + text | A missing-modality evaluation suite for multimodal affective computing, with fixed and random missing patterns at dataset and instance levels, no training-time missing prior, and one model for complete and incomplete inputs. | [Paper](https://aclanthology.org/2026.findings-emnlp.978.pdf) · [Code](https://github.com/RH-Lin/MissMAC-Bench) |
 | CMU-MOSI | Audio + video + text | A classic multimodal sentiment benchmark built from opinion videos. It is widely used to study sentiment prediction when acoustic, visual, or textual cues are missing. | [Paper](https://ieeexplore.ieee.org/document/7742221) |
 | CMU-MOSEI | Audio + video + text | A larger and more diverse successor to CMU-MOSI covering many speakers and topics. It is a standard benchmark for robust multimodal sentiment learning under missing modalities. | [Paper](https://aclanthology.org/P18-1208/) |
 | IEMOCAP | Audio + video + motion capture + text | A multimodal emotion recognition benchmark recorded from dyadic acted conversations. It is commonly used to test robustness when one or more expressive modalities are absent. | [Paper](https://link.springer.com/article/10.1007/s10579-008-9076-6) |
