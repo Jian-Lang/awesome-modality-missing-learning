@@ -212,7 +212,6 @@ A curated list of papers, code, and benchmarks on **Modality Missing Learning (M
 
 | Title | Venue | Year | Code |
 |-------|-------|------|------|
-| [BIP: Bi-level Information Transfer and Completion Prompting for Visual Recognition with Missing Modalities](https://eccv.ecva.net/virtual/2026/poster/4101) | ECCV | 2026 | N/A |
 | [AOEPT: Breaking the Implicit Modality-Reduction Bottleneck in Modality Missing Prompt Tuning](https://arxiv.org/abs/2605.24816) | ICML | 2026 | [![Stars](https://img.shields.io/github/stars/Jian-Lang/AOEPT.svg?style=social&label=Star)](https://github.com/Jian-Lang/AOEPT) |
 | [SPR: A Structured Prompt Refinement Network for Modality Missing](https://icml.cc/virtual/2026/poster/64804) | ICML | 2026 | N/A |
 | [MoRA: Missing Modality Low-Rank Adaptation for Visual Recognition](https://openreview.net/pdf?id=ZgQnIPG4uV) | ICLR | 2026 | [![Stars](https://img.shields.io/github/stars/Tree-Shu-Zhao/MoRA.svg?style=social&label=Star)](https://github.com/Tree-Shu-Zhao/MoRA) |
@@ -314,7 +313,6 @@ A curated list of papers, code, and benchmarks on **Modality Missing Learning (M
 | [Towards Real-World Wearable Motion Reconstruction](https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/8232.pdf) | ECCV | 2026 | N/A |
 | [Two-Sided State-Space Models for Sequential Recommendation with Non-Random Multimodal Review Feedback](https://aclanthology.org/2026.findings-emnlp.11.pdf) | EMNLP Findings | 2026 | N/A |
 | [Compass: Degradation-Simulated Reciprocal Learning with Lightweight Needle RWKV for Multimodal Crack Segmentation under Missing Modalities](https://arxiv.org/abs/2608.03559) | MM | 2026 | [![Stars](https://img.shields.io/github/stars/Karl1109/Compass.svg?style=social&label=Star)](https://github.com/Karl1109/Compass) |
-| [BIP: Bi-level Information Transfer and Completion Prompting for Visual Recognition with Missing Modalities](https://eccv.ecva.net/virtual/2026/poster/4101) | ECCV | 2026 | N/A |
 | [Retrieving to Recover: Towards Incomplete Audio-Visual Question Answering via Semantic-consistent Purification](https://aclanthology.org/2026.acl-long.961.pdf) | ACL | 2026 | N/A |
 | [Not All Modalities at Once: Dynamic Dropout and Bidirectional Fusion for Robust Multi-modal Knowledge Graph Completion](https://aclanthology.org/2026.findings-acl.890.pdf) | ACL Findings | 2026 | [![Stars](https://img.shields.io/github/stars/ferryman-ship/MDBGF.svg?style=social&label=Star)](https://github.com/ferryman-ship/MDBGF) |
 | [MCMoE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment](https://ojs.aaai.org/index.php/AAAI/article/view/38104) | AAAI | 2026 | [![Stars](https://img.shields.io/github/stars/XuHuangbiao/MCMoE.svg?style=social&label=Star)](https://github.com/XuHuangbiao/MCMoE) |
